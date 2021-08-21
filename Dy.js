@@ -23,5 +23,5 @@ http=None:10881, username=1148587219@qq.com, password=0aa4b81079b9a6c3ab9cfdc3f7
 http=None:10884, username=1148587219@qq.com, password=0aa4b81079b9a6c3ab9cfdc3f7c8a63f, over-tls=false, tls-verification=false, tls-host=in.gotochinatown.net, fast-open=false, udp-relay=false, tag=孟买 
 http=None:10888, username=1148587219@qq.com, password=0aa4b81079b9a6c3ab9cfdc3f7c8a63f, over-tls=false, tls-verification=false, tls-host=jpl.gotochinatown.net, fast-open=false, udp-relay=false, tag=日本原生 
 http=None:443, username=1148587219@qq.com, password=0aa4b81079b9a6c3ab9cfdc3f7c8a63f, over-tls=false, tls-verification=false, tls-host=de.gusa.xyz, fast-open=false, udp-relay=false, tag=纽伦堡 
-http=None:4700, username=1148587219@qq.com, password=0aa4b81079b9a6c3ab9cfdc3f7c8a63f, over-tls=false, tls-verification=false, tls-host=cm.stunnel.vip, fast-open=false, udp-relay=false, tag=香港HKBN-2 
-http=None:4700, username=1148587219@qq.com, password=0aa4b81079b9a6c3ab9cfdc3f7c8a63f, over-tls=false, tls-verification=false, tls-host=cm.stunnel.vip, fast-open=false, udp-relay=false, tag=香港HKT-2
+http=None:4700, username=1148587219@qq.com, password=0aa4b81079b9a6c3ab9cfdc3f7c8a63f, over-tls=false, tls-verification=false, tls-host=cm.stunnel.vip, fast-open=false, udp-relay=false, tag=香港HKBN2
+http=None:4700, username=1148587219@qq.com, password=0aa4b81079b9a6c3ab9cfdc3f7c8a63f, over-tls=false, tls-verification=false, tls-host=cm.stunnel.vip, fast-open=false, udp-relay=false, tag=香港HKT2
