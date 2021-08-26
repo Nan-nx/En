@@ -1,5 +1,6 @@
 /*
- Unlock vip会员缓存下载 2021.3.24网络搜集，
+ Unlock vip会员缓存下载 2021.08.25网络搜集
+
 # 本地加载格式如下，若网络挂载，可将url后部分改为https://raw.githubusercontent.com/Nan-nx/En/master/Bibilivip.js
 https:\/\/app\.bilibili\.com\/(x\/vip\/web\/user\/combine|vip\/home|x\/v2\/account\/mine|x\/v2\/account\/myinfo) url script-response-body Bibilivip.js
 
