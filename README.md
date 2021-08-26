@@ -1,68 +1,83 @@
-# En
-收集整理的Quan X配置文件，均来自网络！！
+# En 说明 :（2021.08.26更新）
 
-### 说明 :
-
-* 只是搬运和同步更新大佬脚本.
-
-* 不负责维护脚本.
-
+* 收集整理的Quan X配置文件，均来自网络！！更新于2021年08.26.
+* 只是搬运和同步更新大佬脚本，不负责维护脚本.
 * 只测试自用脚本，其他大部分脚本未测试可用性.
 
+# 自用机场推荐：https://b.luxury/waf/4yzbtm2WWSUi5Im82
 
-### 全局配置：
+* 部分订阅节点更新：（规则差异，请注意资源解析器的使用或是相应机场软件）
+* 需机场条件下使用，Clash订阅 https://git.io/emzclash
+* 匹配资源解析器可使用， https://suo.yt/cssfBJA
+* [genernal]字段下添加括号里内容（resource_parser_url= https://raw.githubusercontent.com/Nan-nx/QuantumultX-Rules/master/Scripts/resource-parser.js）
 
-* [QuantumultX.conf](https://raw.githubusercontent.com/guzhig/QuantumultX/master/QuantumultX.conf)
+# En 说明 :（2021.08.25更新）
+
+### Quantumult_X 懒人配置：（任何懒人配置会覆盖原有配置，建议打开后直接复制相应字段使用）
+
+* 【基于w37fhy的精简，修正，同时适用QuantumultX旧版 适用于iOS14不支持Task_gallery功能】
+* [Nan-nx_diy.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx_diy.conf) ❗❗
+* 以上配置支持Quantumult_X最新商店版，支持gallery订阅及Url测速，可自动切换最快速度节点。
+* 同时支持
+
+* 其他类型懒人配置
+* [NobyDa 大佬精品](https://raw.githubusercontent.com/Nan-nx/En/master/NoByDa.conf)
+* 
+* [QuantumultX_diy.conf](https://raw.githubusercontent.com/Nan-nx/Quantumult_X/master/QuantumultX_diy.conf)
+
+# 部分 Quantumult_X 详细配置规则，可自行DIY！
+
+# Local
+static= 节点选择, ♻️ 自动选择, 🇭🇰 香港, 日本,🇸🇬 新加坡, 美国, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Available.png
+#默认设置10分钟测速一次，当前使用节点延迟和最新测速延迟最低的节点相差100ms以上则切换为最新的最低延迟节点，否则继续延用节点
+url-latency-benchmark=♻️ 自动选择, server-tag-regex=.*, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
+url-latency-benchmark=🇭🇰 香港, server-tag-regex=(?=.*(港|HK|(?i)Hong))^((?!(台湾|日本|新加坡|美国|韩国|狮城|南朝鲜|US|SG|JP|KR|TW|台灣|美國|韓國|獅城)).)*$, check-interval=600, tolerance=50, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+url-latency-benchmark= 日本, server-tag-regex=(?=.*(日本|JP|(?i)Japan))^((?!(香港|台湾|新加坡|美国|韩国|狮城|南朝鲜|US|SG|KR|HK|TW|台灣|美國|韓國|獅城)).)*$, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+url-latency-benchmark=🇸🇬 新加坡, server-tag-regex=(?=.*(新加坡|狮城|SG|(?i)Singapore))^((?!(香港|台湾|日本|美国|韩国|南朝鲜|US|JP|KR|HK|TW|台灣|美國|韓國)).)*$, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+url-latency-benchmark= 美国, server-tag-regex=(?=.*(美国|美國|US|洛杉矶|西雅图|(?i)States|American))^((?!(香港|台湾|日本|新加坡|韩国|狮城|南朝鲜|SG|JP|KR|HK|TW|台灣|韓國|獅城)).)*$, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+static=🙈 网易云音乐, 解锁节点一,  节点选择, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
+static= 漏网之鱼,  节点选择, ♻️ 自动选择, 🇭🇰 香港, 日本,🇸🇬 新加坡, 美国, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+
+static=Other, Auto, proxy, My Policy,  台湾,  香港,  日本,  美国, 🇸🇬 新加坡, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+
+# [rewrite_local]
+* 本地js操作方法
+* （添加重写，脚本类型：script-response-body，用以匹配的URL：https:\/\/app\.bilibili\.com\/(x\/vip\/web\/user\/combine|vip\/home|x\/v2\/account\/mine|x\/v2\/account\/myinfo)   脚本路径：Bibilivip.js（或 https://raw.githubusercontent.com/Nan-nx/En/master/Bibilivip.js（远端仓库））
+直接挂载本地会报错，是因为没有在本地放置Bibilivip.js 文件（Bibilivip.js 文件应该放在：文件管理-Quantumult_X/Scripts里）
+注：此类单一重写功能的脚本，写法一致。还不明白直接参考上述 [Nan-nx_diy.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx_diy.conf)可点击查看如何书写。
 
 
-[filter_remote]
+# [filter_remote]
 
-https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Liby.txt, tag=🚫 广告拦截, force-policy=reject, enabled=true
+# ChinaIP 中国直连
+https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list, tag=🎯中国IP-直连, update-interval=86400, opt-parser=false , enabled=true
+# 规则修正-直连
+https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Unbreak.list, tag=🎯规则修正-直连, update-interval=86400, opt-parser=false, enabled=true
+# Privacy 隐私
+https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Guard/Privacy.list, tag=📩隐私保护, update-interval=86400, opt-parser=false, enabled=true
+# Hijacking 运营商劫持或恶意网站
+https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Guard/Hijacking.list, tag=📩运营商劫持, update-interval=86400, opt-parser=false, enabled=true
+# Advertising 广告
+https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Guard/Advertising.list, tag=📩轻量广告拦截, update-interval=86400, opt-parser=false, enabled=true
+# Global 全球加速
+https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Global.list, tag=🚄全球加速, force-policy=Policy, update-interval=86400, opt-parser=false, enabled=true
+# Streaming 国际流媒体服务
+https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/StreamingMedia/Streaming.list, tag=🚄国际流媒体服务, force-policy=Policy, update-interval=86400, opt-parser=false, enabled=true
+# 重度广告拦截-拒绝
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=📩重度广告拦截-拒绝, force-policy=reject, update-interval=86400, opt-parser=false, enabled=false
 
-https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Sub/Telegram.txt, tag=📱Telegram, force-policy=Telegram, enabled=true
-
-https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Media/TikTok.list, tag=🎵TikTok, force-policy=🎵 TikTok, enabled=true
-
-https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Sub/YouTube.txt, tag=🎬 YouTube, force-policy=🎬 YouTube, enabled=true
-
-https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Sub/Netflix.txt, tag=📺 Netflix, force-policy=📺 Netflix, enabled=true
-
-https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/GlobalMedia.txt, tag=💻 国外影视, force-policy=💻 国外影视, enabled=true
-
-https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Global.txt, tag=🌏 国外网站, force-policy=proxy, enabled=true
-
-https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Apple_CDN.txt, tag=苹果CDN 资源类(建议直连), force-policy=direct, enabled=true
-
-https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Apple_API.txt, tag=苹果API 服务类 (账号所在区), force-policy=🍎 苹果服务, enabled=true
-
-https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/AsianMedia.txt, tag=国内媒体, force-policy=direct, enabled=true
-
-https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Domestic.txt, tag=国内网站, force-policy=direct, enabled=true
-
-https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Region.txt, tag=修正规则，LAN / GeoIP,CN, force-policy=direct, enabled=true
-
-https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/BacktoCN.list, tag=CN（回国，默认禁用）, force-policy=🇨🇳 China, enabled=false
 
 
 ### 本地配置：
 
-* 建立本地文件夹
-目录 iCloud Drive/QuantumultX/Scripts/guzhig 或者 我的iPhone/QuantumultX/Scripts/guzhig
+* 建立本地文件夹目录（自带文件管理）
+* iCloud Drive/QuantumultX/Scripts（若开启QuantumultX设置里的icloud同步）
+* 我的iPhone/QuantumultX/Scripts（若开启QuantumultX设置里的icloud同步）
 
-* WoringCopy挂载我的[仓库](https://github.com/guzhig/QuantumultX.git)
+* WoringCopy挂载我的[仓库](https://github.com/Nan-nx.git)
 
 * 挂载[视频教程](https://m.youtube.com/watch?t=3s&v=inCQFnDmRLo)
 
-* [Js_local_WorkingCopy.conf](https://raw.githubusercontent.com/guzhig/QuantumultX/master/Js_local_WorkingCopy.conf) 脚本订阅.
-
-* [Js_Local_WorkingCopy_Cookie.conf](https://raw.githubusercontent.com/guzhig/QuantumultX/master/Js_Local_WorkingCopy_Cookie.conf) 获取Cookie订阅,适用于商店版v1.0.5-build192
-
-* [Get_Cookie_New.conf](https://raw.githubusercontent.com/guzhig/QuantumultX/master/Get_Cookie_New.conf) 获取Cookie,商店版及TFv1.0.6-build212+
-
-* 获取Cookie订阅根据QuantumultX版本二选一,仅在Cookie获取或失效时启用,不需要时右滑动禁用.
-
-* [Task_Local.conf](https://raw.githubusercontent.com/guzhig/QuantumultX/master/Task_Local.conf) 定时任务配置,目前无法订阅,请手动根据个人需求复制内容及修改时间.
-* 
 
 ### 远程配置：
 
@@ -73,11 +88,6 @@ https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/B
 * [圈X视频教程第三期](https://youtu.be/kKa26Fj0MJA)
 * 
 * [圈X视频教程第四期](https://youtu.be/_8_xnEQHGbM)
-
-
-* [Js.conf](https://raw.githubusercontent.com/guzhig/QuantumultX/master/Js.conf) 脚本远程订阅
-
-* [Get_Cookie_Remote.conf](https://raw.githubusercontent.com/guzhig/QuantumultX/master/Get_Cookie_Remote.conf) 获取Cookie远程订阅,仅在Cookie获取或失效时启用,不需要时右滑动禁用.
 
 
 
@@ -91,7 +101,11 @@ https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/B
 
 * 一旦使用并复制了任何相关脚本或Script项目的规则，则视为您已接受此免责声明.
 
-* 有问题可联系：![Twitter](https://user-images.githubusercontent.com/61365467/130915040-d9cce7b6-5977-4789-9990-87879a8bf6d1.png)
+* 有问题可联系： ![Twitter](https://user-images.githubusercontent.com/61365467/130916148-3d207248-8856-463f-8fa7-a926b1ee2b65.png) ![微信公众号](https://user-images.githubusercontent.com/61365467/130927901-ec778929-f84b-4fb6-be0e-f54fbaf96098.jpg)
+* 
+* 感谢打赏： ![微信赞赏码](https://user-images.githubusercontent.com/61365467/130928043-8b6d5d91-170a-4c33-894b-7faf07611ba9.png)
+
+
 
 
 ### 特别感谢：
@@ -101,6 +115,12 @@ https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/B
 * [@KOP-XIAO](https://github.com/KOP-XIAO)
 
 * [@w37fhy](https://github.com/w37fhy)
+
+* [@Tartarus2014](https://github.com/Tartarus2014)
+
+* [@nzw9314](https://github.com/nzw9314)
+
+* [Qure](https://github.com/Koolson/Qure)
 
 * [@lhie1](https://github.com/lhie1)
 
@@ -124,6 +144,4 @@ https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/B
 
 * [@sazs34](https://github.com/sazs34)
 
-* [@nzw9314](https://github.com/nzw9314)
-* 
 * [@guzhig](https://github.com/guzhig)
