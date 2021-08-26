@@ -94,7 +94,7 @@
 
 * 一旦使用并复制了任何相关脚本或Script项目的规则，则视为您已接受此免责声明.
 
-* 有问题可联系： ![Twitter](https://user-images.githubusercontent.com/61365467/130916148-3d207248-8856-463f-8fa7-a926b1ee2b65.png) ![微信公众号](https://user-images.githubusercontent.com/61365467/130927901-ec778929-f84b-4fb6-be0e-f54fbaf96098.jpg)
+* 有问题可联系： ![微信公众号](https://user-images.githubusercontent.com/61365467/130927901-ec778929-f84b-4fb6-be0e-f54fbaf96098.jpg)
 * 
 * 感谢打赏： ![微信赞赏码](https://user-images.githubusercontent.com/61365467/130928043-8b6d5d91-170a-4c33-894b-7faf07611ba9.png)
 
