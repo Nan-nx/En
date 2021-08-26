@@ -1,5 +1,6 @@
 # En
 收集整理的Quan X配置文件，均来自网络！！
+
 ### 说明 :
 
 * 只是搬运和同步更新大佬脚本.
@@ -9,9 +10,13 @@
 * 只测试自用脚本，其他大部分脚本未测试可用性.
 
 
+### 全局配置：
+
+* [QuantumultX.conf](https://raw.githubusercontent.com/guzhig/QuantumultX/master/QuantumultX.conf)
+
 
 [filter_remote]
-#分流订阅(大佬们的)
+
 https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Liby.txt, tag=🚫 广告拦截, force-policy=reject, enabled=true
 
 https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Sub/Telegram.txt, tag=📱Telegram, force-policy=Telegram, enabled=true
@@ -38,10 +43,6 @@ https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Region.t
 
 https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/BacktoCN.list, tag=CN（回国，默认禁用）, force-policy=🇨🇳 China, enabled=false
 
-### 全局配置：
-
-* [QuantumultX.conf](https://raw.githubusercontent.com/guzhig/QuantumultX/master/QuantumultX.conf)
-
 
 ### 本地配置：
 
@@ -61,36 +62,45 @@ https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/B
 * 获取Cookie订阅根据QuantumultX版本二选一,仅在Cookie获取或失效时启用,不需要时右滑动禁用.
 
 * [Task_Local.conf](https://raw.githubusercontent.com/guzhig/QuantumultX/master/Task_Local.conf) 定时任务配置,目前无法订阅,请手动根据个人需求复制内容及修改时间.
+* 
 
 ### 远程配置：
-* [视频教程](https://youtu.be/tr5aji82Vks)
+
+* [圈X视频教程第一期](https://youtu.be/G1oUtOA1J2w)
+* 
+* [圈X视频教程第二期](https://youtu.be/pLZDK9SACLQ)
+* 
+* [圈X视频教程第三期](https://youtu.be/kKa26Fj0MJA)
+* 
+* [圈X视频教程第四期](https://youtu.be/_8_xnEQHGbM)
+
 
 * [Js.conf](https://raw.githubusercontent.com/guzhig/QuantumultX/master/Js.conf) 脚本远程订阅
 
 * [Get_Cookie_Remote.conf](https://raw.githubusercontent.com/guzhig/QuantumultX/master/Get_Cookie_Remote.conf) 获取Cookie远程订阅,仅在Cookie获取或失效时启用,不需要时右滑动禁用.
 
-* [Task_Remote.conf](https://raw.githubusercontent.com/guzhig/QuantumultX/master/Task_Remote.conf) 定时任务远程配置,目前无法订阅,请手动根据个人需求复制内容及修改时间
 
 
-## 免责声明：
+## 免责声明：(任何以任何方式查看此项目的人或直接或间接使用该项目的任何脚本的使用者都应仔细阅读此声明!)
 
-* guzhig发布的Script项目中涉及的任何解锁和解密分析脚本仅用于资源共享和学习研究，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
+* Nan-nx项目中涉及的任何解锁和解密分析脚本仅用于资源共享和学习研究，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
 
-* 间接使用脚本的任何用户，包括但不限于建立VPS或在某些行为违反国家/地区法律或相关法规的情况下进行传播, guzhig 对于由此引起的任何隐私泄漏或其他后果概不负责.
-
-* 请勿将Script项目的任何内容用于商业或非法目的，否则后果自负.
-
-* 如果任何单位或个人认为该项目的脚本可能涉嫌侵犯其权利，则应及时通知并提供身份证明，所有权证明，我们将在收到认证文件后删除相关脚本.
-
-* guzhig对任何脚本问题概不负责，包括但不限于由任何脚本错误导致的任何损失或损害.
+* 间接使用脚本的任何用户，包括但不限于建立VPS或在某些行为违反国家/地区法律或相关法规的情况下进行传播, Nan-nx对于由此引起的任何隐私泄漏或其他后果概不负责.
 
 * 您必须在下载后的24小时内从计算机或手机中完全删除以上内容.
 
-* 任何以任何方式查看此项目的人或直接或间接使用该Script项目的任何脚本的使用者都应仔细阅读此声明。guzhig保留随时更改或补充此免责声明的权利。一旦使用并复制了任何相关脚本或Script项目的规则，则视为您已接受此免责声明.
-* 
+* 一旦使用并复制了任何相关脚本或Script项目的规则，则视为您已接受此免责声明.
+
+* 有问题可联系：![Twitter](https://user-images.githubusercontent.com/61365467/130915040-d9cce7b6-5977-4789-9990-87879a8bf6d1.png)
+
 
 ### 特别感谢：
+
 * [@NobyDa](https://github.com/NobyDa)
+
+* [@KOP-XIAO](https://github.com/KOP-XIAO)
+
+* [@w37fhy](https://github.com/w37fhy)
 
 * [@lhie1](https://github.com/lhie1)
 
@@ -115,3 +125,5 @@ https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/B
 * [@sazs34](https://github.com/sazs34)
 
 * [@nzw9314](https://github.com/nzw9314)
+* 
+* [@guzhig](https://github.com/guzhig)
