@@ -14,58 +14,51 @@
 # En 说明 :（2021.08.25更新）
 
 ### Quantumult_X 懒人配置：（任何懒人配置会覆盖原有配置，建议打开后直接复制相应字段使用）
-
 * 【基于w37fhy的精简，修正，同时适用QuantumultX旧版 适用于iOS14不支持Task_gallery功能】
 * [Nan-nx_diy.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx_diy.conf) ❗❗
 * 以上配置支持Quantumult_X最新商店版，支持gallery订阅及Url测速，可自动切换最快速度节点。
-* 同时支持
+* 同时支持B站大会员高帧，百度云会员高清观看倍速，酷我会员资源听取。
 
 * 其他类型懒人配置
 * [NobyDa 大佬精品](https://raw.githubusercontent.com/Nan-nx/En/master/NoByDa.conf)
-* 
 * [QuantumultX_diy.conf](https://raw.githubusercontent.com/Nan-nx/Quantumult_X/master/QuantumultX_diy.conf)
 
 # 部分 Quantumult_X 详细配置规则，可自行DIY！
 
-# Local
-static= 节点选择, ♻️ 自动选择, 🇭🇰 香港, 日本,🇸🇬 新加坡, 美国, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Available.png
-#默认设置10分钟测速一次，当前使用节点延迟和最新测速延迟最低的节点相差100ms以上则切换为最新的最低延迟节点，否则继续延用节点
-url-latency-benchmark=♻️ 自动选择, server-tag-regex=.*, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
-url-latency-benchmark=🇭🇰 香港, server-tag-regex=(?=.*(港|HK|(?i)Hong))^((?!(台湾|日本|新加坡|美国|韩国|狮城|南朝鲜|US|SG|JP|KR|TW|台灣|美國|韓國|獅城)).)*$, check-interval=600, tolerance=50, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
-url-latency-benchmark= 日本, server-tag-regex=(?=.*(日本|JP|(?i)Japan))^((?!(香港|台湾|新加坡|美国|韩国|狮城|南朝鲜|US|SG|KR|HK|TW|台灣|美國|韓國|獅城)).)*$, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
-url-latency-benchmark=🇸🇬 新加坡, server-tag-regex=(?=.*(新加坡|狮城|SG|(?i)Singapore))^((?!(香港|台湾|日本|美国|韩国|南朝鲜|US|JP|KR|HK|TW|台灣|美國|韓國)).)*$, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
-url-latency-benchmark= 美国, server-tag-regex=(?=.*(美国|美國|US|洛杉矶|西雅图|(?i)States|American))^((?!(香港|台湾|日本|新加坡|韩国|狮城|南朝鲜|SG|JP|KR|HK|TW|台灣|韓國|獅城)).)*$, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
-static=🙈 网易云音乐, 解锁节点一,  节点选择, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
-static= 漏网之鱼,  节点选择, ♻️ 自动选择, 🇭🇰 香港, 日本,🇸🇬 新加坡, 美国, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+* # Local
+* static= 节点选择, ♻️ 自动选择, 🇭🇰 香港, 日本,🇸🇬 新加坡, 美国, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Available.png
+* #默认设置10分钟测速一次，当前使用节点延迟和最新测速延迟最低的节点相差100ms以上则切换为最新的最低延迟节点，否则继续延用节点
+* url-latency-benchmark=♻️ 自动选择, server-tag-regex=.*, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
+* url-latency-benchmark=🇭🇰 香港, server-tag-regex=(?=.*(港|HK|(?i)Hong))^((?!(台湾|日本|新加坡|美国|韩国|狮城|南朝鲜|US|SG|JP|KR|TW|台灣|美國|韓國|獅城)).)*$, check-interval=600, tolerance=50, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
+* url-latency-benchmark= 日本, server-tag-regex=(?=.*(日本|JP|(?i)Japan))^((?!(香港|台湾|新加坡|美国|韩国|狮城|南朝鲜|US|SG|KR|HK|TW|台灣|美國|韓國|獅城)).)*$, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
+* url-latency-benchmark=🇸🇬 新加坡, server-tag-regex=(?=.*(新加坡|狮城|SG|(?i)Singapore))^((?!(香港|台湾|日本|美国|韩国|南朝鲜|US|JP|KR|HK|TW|台灣|美國|韓國)).)*$, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
+* url-latency-benchmark= 美国, server-tag-regex=(?=.*(美国|美國|US|洛杉矶|西雅图|(?i)States|American))^((?!(香港|台湾|日本|新加坡|韩国|狮城|南朝鲜|SG|JP|KR|HK|TW|台灣|韓國|獅城)).)*$, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
+*  static= 漏网之鱼,  节点选择, ♻️ 自动选择, 🇭🇰 香港, 日本,🇸🇬 新加坡, 美国, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 
-static=Other, Auto, proxy, My Policy,  台湾,  香港,  日本,  美国, 🇸🇬 新加坡, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
-
-# [rewrite_local]
+* # [rewrite_local]
 * 本地js操作方法
 * （添加重写，脚本类型：script-response-body，用以匹配的URL：https:\/\/app\.bilibili\.com\/(x\/vip\/web\/user\/combine|vip\/home|x\/v2\/account\/mine|x\/v2\/account\/myinfo)   脚本路径：Bibilivip.js（或 https://raw.githubusercontent.com/Nan-nx/En/master/Bibilivip.js（远端仓库））
 直接挂载本地会报错，是因为没有在本地放置Bibilivip.js 文件（Bibilivip.js 文件应该放在：文件管理-Quantumult_X/Scripts里）
 注：此类单一重写功能的脚本，写法一致。还不明白直接参考上述 [Nan-nx_diy.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx_diy.conf)可点击查看如何书写。
 
 
-# [filter_remote]
-
-# ChinaIP 中国直连
-https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list, tag=🎯中国IP-直连, update-interval=86400, opt-parser=false , enabled=true
-# 规则修正-直连
-https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Unbreak.list, tag=🎯规则修正-直连, update-interval=86400, opt-parser=false, enabled=true
-# Privacy 隐私
-https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Guard/Privacy.list, tag=📩隐私保护, update-interval=86400, opt-parser=false, enabled=true
-# Hijacking 运营商劫持或恶意网站
-https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Guard/Hijacking.list, tag=📩运营商劫持, update-interval=86400, opt-parser=false, enabled=true
-# Advertising 广告
-https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Guard/Advertising.list, tag=📩轻量广告拦截, update-interval=86400, opt-parser=false, enabled=true
-# Global 全球加速
-https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Global.list, tag=🚄全球加速, force-policy=Policy, update-interval=86400, opt-parser=false, enabled=true
-# Streaming 国际流媒体服务
-https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/StreamingMedia/Streaming.list, tag=🚄国际流媒体服务, force-policy=Policy, update-interval=86400, opt-parser=false, enabled=true
-# 重度广告拦截-拒绝
-https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=📩重度广告拦截-拒绝, force-policy=reject, update-interval=86400, opt-parser=false, enabled=false
-
+* # [filter_remote]
+* # ChinaIP 中国直连
+* https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list, tag=🎯中国IP-直连, update-interval=86400, opt-parser=false , enabled=true
+* # 规则修正-直连
+* https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Unbreak.list, tag=🎯规则修正-直连, update-interval=86400, opt-parser=false, enabled=true
+* # Privacy 隐私
+* https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Guard/Privacy.list, tag=📩隐私保护, update-interval=86400, opt-parser=false, enabled=true
+* # Hijacking 运营商劫持或恶意网站
+* https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Guard/Hijacking.list, tag=📩运营商劫持, update-interval=86400, opt-parser=false, enabled=true
+* # Advertising 广告
+* https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Guard/Advertising.list, tag=📩轻量广告拦截, update-interval=86400, opt-parser=false, enabled=true
+* # Global 全球加速
+* https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Global.list, tag=🚄全球加速, force-policy=Policy, update-interval=86400, opt-parser=false, enabled=true
+* # Streaming 国际流媒体服务
+* https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/StreamingMedia/Streaming.list, tag=🚄国际流媒体服务, force-policy=Policy, update-interval=86400, opt-parser=false, enabled=true
+* # 重度广告拦截-拒绝
+* https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=📩重度广告拦截-拒绝, force-policy=reject, update-interval=86400, opt-parser=false, enabled=false
 
 
 ### 本地配置：
