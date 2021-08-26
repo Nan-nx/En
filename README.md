@@ -93,7 +93,8 @@
 
 * 有问题可联系： ![微信公众号](https://user-images.githubusercontent.com/61365467/130927901-ec778929-f84b-4fb6-be0e-f54fbaf96098.jpg)
 * 
-* 感谢打赏： ![微信赞赏码](https://user-images.githubusercontent.com/61365467/130928043-8b6d5d91-170a-4c33-894b-7faf07611ba9.png)
+* 感谢打赏： ![微信赞赏码](https://user-images.githubusercontent.com/61365467/130933671-855989f8-ceb8-4ca0-b111-738390022e76.png)
+
 
 
 
