@@ -57,7 +57,7 @@
 *  重度广告拦截-拒绝
 * https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=📩重度广告拦截-拒绝, force-policy=reject, update-interval=86400, opt-parser=false, enabled=false
 
-*  [task_local]
+*  [task_local] (稍微复杂，不要忘了添加主机名。另外，很多定时任务需要加载cookies方可使用，并且方式不太一直，新手不建议。)
 
 * # bilibili
 #打开浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com
