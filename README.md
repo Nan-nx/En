@@ -1,4 +1,4 @@
-###  En 说明 :（2021.08.26更新）
+###  使用说明 :（2021.08.26更新）
 
 * 收集整理的Quan X配置文件，均来自网络！！更新于2021年08.26.
 * 只是搬运和同步更新大佬脚本，不负责维护脚本.
@@ -11,9 +11,7 @@
 * 匹配资源解析器可使用， https://suo.yt/cssfBJA
 * [genernal]字段下添加括号里内容（resource_parser_url= https://raw.githubusercontent.com/Nan-nx/QuantumultX-Rules/master/Scripts/resource-parser.js）
 
-###  En 说明 :（2021.08.25更新）
-
-### Quantumult_X 懒人配置：（任何懒人配置会覆盖原有配置，建议打开后直接复制相应字段使用）
+### Quantumult_X 懒人配置：（任何懒人配置会覆盖原有配置，建议打开后直接复制相应字段使用）（2021.08.25更新）
 * 【基于w37fhy的精简，修正，同时适用QuantumultX旧版 适用于iOS14不支持Task_gallery功能】
 * [Nan-nx_diy.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx_diy.conf) ❗❗
 * 以上配置支持Quantumult_X最新商店版，支持gallery订阅及Url测速，可自动切换最快速度节点。
@@ -40,7 +38,6 @@
 * （添加重写，脚本类型：script-response-body，用以匹配的URL：https:\/\/app\.bilibili\.com\/(x\/vip\/web\/user\/combine|vip\/home|x\/v2\/account\/mine|x\/v2\/account\/myinfo)   脚本路径：Bibilivip.js（或 https://raw.githubusercontent.com/Nan-nx/En/master/Bibilivip.js（远端仓库））
 直接挂载本地会报错，是因为没有在本地放置Bibilivip.js 文件（Bibilivip.js 文件应该放在：文件管理-Quantumult_X/Scripts里）
 注：此类单一重写功能的脚本，写法一致。还不明白直接参考上述 [Nan-nx_diy.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx_diy.conf)可点击查看如何书写。
-
 
 * [filter_remote]
 *  ChinaIP 中国直连
@@ -103,38 +100,38 @@
 
 ### 特别感谢：
 
-* [@NobyDa](https://github.com/NobyDa)
+* [NobyDa](https://github.com/NobyDa)
 
-* [@KOP-XIAO](https://github.com/KOP-XIAO)
+* [KOP-XIAO](https://github.com/KOP-XIAO)
 
-* [@w37fhy](https://github.com/w37fhy)
+* [w37fhy](https://github.com/w37fhy)
 
-* [@Tartarus2014](https://github.com/Tartarus2014)
+* [Tartarus2014](https://github.com/Tartarus2014)
 
-* [@nzw9314](https://github.com/nzw9314)
+* [nzw9314](https://github.com/nzw9314)
 
 * [Qure](https://github.com/Koolson/Qure)
 
-* [@lhie1](https://github.com/lhie1)
+* [lhie1](https://github.com/lhie1)
 
-* [@ConnersHua](https://github.com/ConnersHua)
+* [ConnersHua](https://github.com/ConnersHua)
 
-* [@chavyleung](https://github.com/chavyleung)
+* [chavyleung](https://github.com/chavyleung)
 
-* [@yichahucha](https://github.com/yichahucha)
+* [yichahucha](https://github.com/yichahucha)
 
-* [@langkhach270389](https://github.com/langkhach270389)
+* [langkhach270389](https://github.com/langkhach270389)
 
-* [@Choler](https://github.com/Choler)
+* [Choler](https://github.com/Choler)
 
-* [@onewayticket255](https://github.com/onewayticket255)
+* [onewayticket255](https://github.com/onewayticket255)
 
-* [@NavePnow](https://github.com/NavePnow)
+* [NavePnow](https://github.com/NavePnow)
 
-* [@Meeta](https://github.com/MeetaGit)
+* [Meeta](https://github.com/MeetaGit)
 
-* [@Neurogram-R](https://github.com/Neurogram-R)
+* [Neurogram-R](https://github.com/Neurogram-R)
 
-* [@sazs34](https://github.com/sazs34)
+* [sazs34](https://github.com/sazs34)
 
-* [@guzhig](https://github.com/guzhig)
+* [guzhig](https://github.com/guzhig)
