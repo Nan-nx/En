@@ -58,8 +58,15 @@
 * https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=📩重度广告拦截-拒绝, force-policy=reject, update-interval=86400, opt-parser=false, enabled=false
 
 *  [task_local]
-* # 机场签到 (by evilbutcher & Neurogram )
-* # 使用BoxJs配置订阅及密码
+
+* # bilibili
+#打开浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com
+2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=bilibili, img-url=https://raw.githubusercontent.com/Orz-3/task/master/bilibili.png,enabled=true
+#银瓜子转硬币
+2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js, tag=bilibili银瓜子转硬币, img-url=https://raw.githubusercontent.com/Orz-3/task/master/bilibili.png,enabled=true
+
+* 机场签到 (by evilbutcher & Neurogram )
+* 使用BoxJs配置订阅及密码
 * 45 4 8 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到, img-url=https://raw.githubusercontent.com/Orz-3/Task/master/airport.png, enabled=true
 0 5 8 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master//check_in/glados/checkincookie_env.js, tag=机场签到Cookie版, img-url=https://raw.githubusercontent.com/58xinian/icon/master/glados.png, enabled=false
 
