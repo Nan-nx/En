@@ -1,9 +1,9 @@
 # > bilibili
-DOMAIN-SUFFIX,biliapi.net,Bilibili Auto
-DOMAIN-SUFFIX,bilibili.com,Bilibili Auto
-DOMAIN,upos-hz-mirrorakam.akamaized.net,Bilibili Auto
-DOMAIN-KEYWORD,cn-hk-eq-bcache-,Bilibili Auto
+DOMAIN-SUFFIX,biliapi.net,Bilibili
+DOMAIN-SUFFIX,bilibili.com,Bilibili
+DOMAIN,upos-hz-mirrorakam.akamaized.net,Bilibili
+DOMAIN-KEYWORD,cn-hk-eq-bcache-,Bilibili
 # > 愛奇藝台灣站
-DOMAIN,cache.video.iqiyi.com,Bilibili Auto
-IP-CIDR,116.211.202.206/32,Bilibili Auto
-IP-CIDR,116.211.202.216/32,Bilibili Auto
+DOMAIN,cache.video.iqiyi.com,Bilibili
+IP-CIDR,116.211.202.206/32,Bilibili
+IP-CIDR,116.211.202.216/32,Bilibili
