@@ -1,12 +1,45 @@
+# Forum
+DOMAIN-SUFFIX,bitcointalk.org,PROXY
+
+# Exchange
 DOMAIN-SUFFIX,aex.com,PROXY
 DOMAIN-SUFFIX,bibox.com,PROXY
-DOMAIN-SUFFIX,binance.com,PROXY
-DOMAIN-SUFFIX,bitcointalk.org,PROXY
 DOMAIN-SUFFIX,bitfinex.com,PROXY
+DOMAIN-SUFFIX,bithumb.com,PROXY
 DOMAIN-SUFFIX,bitmex.com,PROXY
+DOMAIN-SUFFIX,bitstamp.net,PROXY
+DOMAIN-SUFFIX,bittrex.com,PROXY
+DOMAIN-SUFFIX,bybit.com,PROXY
+DOMAIN-SUFFIX,coinbase.com,PROXY
+DOMAIN-SUFFIX,coincheck.com,PROXY
+DOMAIN-SUFFIX,coinone.co.kr,PROXY
 DOMAIN-SUFFIX,ftx.com,PROXY
 DOMAIN-SUFFIX,gate.io,PROXY
+DOMAIN-SUFFIX,gemini.com,PROXY
 DOMAIN-SUFFIX,huobi.com,PROXY
+DOMAIN-SUFFIX,korbit.co.kr,PROXY
+DOMAIN-SUFFIX,kraken.com,PROXY
+DOMAIN-SUFFIX,kucoin.com,PROXY
+DOMAIN-SUFFIX,liquid.com,PROXY
 DOMAIN-SUFFIX,okex.com,PROXY
+DOMAIN-SUFFIX,poloniex.com,PROXY
 DOMAIN-SUFFIX,sushi.com,PROXY
+DOMAIN-SUFFIX,uniswap.org,PROXY
 DOMAIN-SUFFIX,zb.com,PROXY
+# > Binance
+DOMAIN-SUFFIX,binance.cc,PROXY
+DOMAIN-SUFFIX,binance.cloud,PROXY
+DOMAIN-SUFFIX,binance.com,PROXY
+DOMAIN-SUFFIX,binance.im,PROXY
+DOMAIN-SUFFIX,binance.me,PROXY
+DOMAIN-SUFFIX,binance.us,PROXY
+DOMAIN-SUFFIX,bnappzh.com,PROXY
+DOMAIN-SUFFIX,bnbstatic.com,PROXY
+DOMAIN-SUFFIX,bntrace.com,PROXY
+
+# Analysis
+DOMAIN-SUFFIX,aicoin.com,PROXY
+DOMAIN-SUFFIX,aimoon.com,PROXY
+DOMAIN-SUFFIX,coingecko.com,PROXY
+DOMAIN-SUFFIX,coinmarketcap.com,PROXY
+DOMAIN-SUFFIX,tradingview.com,PROXY

@@ -1,18 +1,15 @@
-### 全部来源于 DivineEngine
-* ![image](https://user-images.githubusercontent.com/61365467/130937761-f30e6fed-2a01-44c8-acf9-feefa49f8157.png)
-
-### 资源
+## 资源
 
 [官方 Github 示例](https://github.com/crossutility/Quantumult-X)
 
-### 配置
+## 配置
 
 | 类别 | 配置 |
 | :------------: | :------------: |
 | 出国版 | [Outbound](https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Outbound.conf) |
 | 回国版 | [Inbound](https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Inbound.conf) |
 
-### 说明
+## 说明
 
 你可能需要阅读这份[使用说明](https://www.notion.so/divineengine/b4161dac0412486e9a6f1637a1b2d572)。
 

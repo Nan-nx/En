@@ -206,6 +206,7 @@ DOMAIN-SUFFIX,hypeapp.cn,REJECT
 DOMAIN-SUFFIX,hypersnap.net,REJECT
 DOMAIN-SUFFIX,iconworkshop.cn,REJECT
 DOMAIN-SUFFIX,idmchina.net,REJECT
+DOMAIN-SUFFIX,imazingchina.com,REJECT
 DOMAIN-SUFFIX,imindmap.cc,REJECT
 DOMAIN-SUFFIX,jihehuaban.com.cn,REJECT
 DOMAIN-SUFFIX,keyshot.cc,REJECT
