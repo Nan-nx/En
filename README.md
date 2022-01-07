@@ -11,9 +11,9 @@
 ###  自用机场推荐：https://b.luxury/waf/4yzbtm2WWSUi5Im82
 
 * 部分订阅节点更新：（规则差异，请注意资源解析器的使用或是相应机场软件）
-* 需机场条件下使用，Clash订阅 https://git.io/emzclash
+* 需机场条件下使用，Clash订阅 https://git.io/emzclashn
 * 匹配资源解析器可使用， https://suo.yt/cssfBJA
-* [genernal]字段下添加括号里内容（resource_parser_url= https://raw.githubusercontent.com/Nan-nx/QuantumultX-Rules/master/Scripts/resource-parser.js）
+* [genernal]字段下添加括号里内容（resource_parser_url= https://raw.githubusercontent.com/Nan-nx/En/master/Scripts/resource-parser.js）
 
 ### Quantumult_X 懒人配置：（任何懒人配置会覆盖原有配置，建议打开后直接复制相应字段使用）（2021.08.25更新）
 * 【基于w37fhy的精简，修正，同时适用QuantumultX旧版 适用于iOS14不支持Task_gallery功能】
