@@ -45,19 +45,19 @@
 
 * [filter_remote]
 *  ChinaIP 中国直连
-* https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list, tag=🎯中国IP-直连, update-interval=86400, opt-parser=false , enabled=true
+* https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list, tag=🎯中国IP-直连, update-interval=86400, opt-parser=false , enabled=true
 * 规则修正-直连
-* https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Unbreak.list, tag=🎯规则修正-直连, update-interval=86400, opt-parser=false, enabled=true
+* https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Unbreak.list, tag=🎯规则修正-直连, update-interval=86400, opt-parser=false, enabled=true
 *  Privacy 隐私
-* https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Guard/Privacy.list, tag=📩隐私保护, update-interval=86400, opt-parser=false, enabled=true
+* https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Privacy.list, tag=📩隐私保护, update-interval=86400, opt-parser=false, enabled=true
 *  Hijacking 运营商劫持或恶意网站
-* https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Guard/Hijacking.list, tag=📩运营商劫持, update-interval=86400, opt-parser=false, enabled=true
+* https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Hijacking.list, tag=📩运营商劫持, update-interval=86400, opt-parser=false, enabled=true
 *  Advertising 广告
-* https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Guard/Advertising.list, tag=📩轻量广告拦截, update-interval=86400, opt-parser=false, enabled=true
+* https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list, tag=📩轻量广告拦截, update-interval=86400, opt-parser=false, enabled=true
 *  Global 全球加速
-* https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/Global.list, tag=🚄全球加速, force-policy=Policy, update-interval=86400, opt-parser=false, enabled=true
+* https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Global.list, tag=🚄全球加速, force-policy=Policy, update-interval=86400, opt-parser=false, enabled=true
 *  Streaming 国际流媒体服务
-* https://raw.githubusercontent.com/Nan-nx/Profiles/master/Quantumult/Filter/StreamingMedia/Streaming.list, tag=🚄国际流媒体服务, force-policy=Policy, update-interval=86400, opt-parser=false, enabled=true
+* https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Streaming.list, tag=🚄国际流媒体服务, force-policy=Policy, update-interval=86400, opt-parser=false, enabled=true
 *  重度广告拦截-拒绝
 * https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=📩重度广告拦截-拒绝, force-policy=reject, update-interval=86400, opt-parser=false, enabled=false
 
@@ -133,6 +133,8 @@
 * [ConnersHua](https://github.com/ConnersHua)
 
 * [NobyDa](https://github.com/NobyDa)
+
+* [DivineEngine](https://github.com/DivineEngine)
 
 * [chavyleung](https://github.com/chavyleung)
 
