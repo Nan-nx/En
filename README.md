@@ -1,8 +1,12 @@
-###  使用说明 :（2021.08.26更新）
+###  使用说明 :（2022.01.07更新）
 
-* 收集整理的Quan X配置文件，均来自网络！！更新于2021年08.26.
+* 收集整理的Quan X配置文件，均来自网络！！
 * 只是搬运和同步更新大佬脚本，不负责维护脚本.
 * 只测试自用脚本，其他大部分脚本未测试可用性.
+
+* 注：Nan-nx/Script Forked from NobyDa/Script  [NobyDa](https://github.com/NobyDa)
+* 注：Nan-nx/scripts Forked from chavyleung/scripts  [chavyleung](https://github.com/chavyleung)
+
 
 ###  自用机场推荐：https://b.luxury/waf/4yzbtm2WWSUi5Im82
 
@@ -113,7 +117,6 @@
 
 ### 特别感谢：
 
-* [NobyDa](https://github.com/NobyDa)
 
 * [KOP-XIAO](https://github.com/KOP-XIAO)
 
@@ -128,6 +131,8 @@
 * [lhie1](https://github.com/lhie1)
 
 * [ConnersHua](https://github.com/ConnersHua)
+
+* [NobyDa](https://github.com/NobyDa)
 
 * [chavyleung](https://github.com/chavyleung)
 
