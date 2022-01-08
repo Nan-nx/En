@@ -8,7 +8,8 @@
 * 注：Nan-nx/scripts Forked from chavyleung/scripts  [chavyleung](https://github.com/chavyleung)
 
 
-###  自用机场推荐：https://b.luxury/waf/4yzbtm2WWSUi5Im82
+###  自用机场推荐
+* https://b.luxury/waf/4yzbtm2WWSUi5Im82
 
 * 部分订阅节点更新：（规则差异，请注意资源解析器的使用或是相应机场软件）
 * 需机场条件下使用，Clash订阅 https://git.io/emzclashn
@@ -17,13 +18,13 @@
 
 ### Quantumult_X 懒人配置：（任何懒人配置会覆盖原有配置，建议打开后直接复制相应字段使用）（2021.08.25更新）
 * 【基于w37fhy的精简，修正，同时适用QuantumultX旧版 适用于iOS14不支持Task_gallery功能】
-* [Nan-nx_diy.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx_diy.conf) ❗❗
+* [Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗❗
 * 以上配置支持Quantumult_X最新商店版，支持gallery订阅及Url测速，可自动切换最快速度节点。
 * 同时支持B站大会员高帧，百度云会员高清观看倍速，酷我会员资源听取。
 
 * 其他类型懒人配置
-* [NobyDa 大佬精品](https://raw.githubusercontent.com/Nan-nx/En/master/NoByDa.conf)
-* [QuantumultX_diy.conf](https://raw.githubusercontent.com/Nan-nx/Quantumult_X/master/QuantumultX_diy.conf)
+* [NobyDa 大佬精品]
+* 
 
 ###  部分 Quantumult_X 详细配置规则，可自行DIY！
 
@@ -81,7 +82,7 @@
 * iCloud Drive/QuantumultX/Scripts（若开启QuantumultX设置里的icloud同步）
 * 我的iPhone/QuantumultX/Scripts（若开启QuantumultX设置里的icloud同步）
 
-* WoringCopy挂载我的[仓库](https://github.com/Nan-nx.git)
+* WoringCopy挂载我的[仓库]()
 
 * 挂载[视频教程](https://m.youtube.com/watch?t=3s&v=inCQFnDmRLo)
 
