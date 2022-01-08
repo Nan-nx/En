@@ -1,4 +1,8 @@
-# bilibili
+# Bilibili 部分vip功能（20200108更新）
+
+> 脚本详见https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bibilivip.js
+> 
+# Bilibili
 
 > 代码已同时兼容 Surge & QuanX, 使用同一份签到脚本即可
 
