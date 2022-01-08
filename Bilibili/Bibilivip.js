@@ -1,9 +1,9 @@
 /*
  Unlock vip会员缓存下载 2022.01.08 网络搜集 
 
-# 本地加载格式如下，需将脚本放到手机本地，方法不赘述
+本地加载格式如下，需将脚本放到手机本地，方法不赘述
 https:\/\/app\.bilibili\.com\/(x\/vip\/web\/user\/combine|vip\/home|x\/v2\/account\/mine|x\/v2\/account\/myinfo) url script-response-body Bibilivip.js
-# 若网络挂载，可将url后部分改为https://github.com/Nan-nx/En/edit/master/Bilibili/Bibilivip.js
+若网络挂载，可将url后部分改为https://github.com/Nan-nx/En/edit/master/Bilibili/Bibilivip.js
 
 
 
