@@ -16,14 +16,16 @@
 * 匹配资源解析器可使用， https://suo.yt/cssfBJA
 * [genernal]字段下添加括号里内容（resource_parser_url= https://raw.githubusercontent.com/Nan-nx/En/master/Script/resource-parser.js）
 
-### Quantumult_X 懒人配置：（任何懒人配置会覆盖原有配置，建议打开后直接复制相应字段使用）（2021.08.25更新）
+### Quantumult_X 懒人配置：
+
+* *任何懒人配置会覆盖原有配置，建议打开后直接复制相应字段使用）（2021.08.25更新）
 * 【基于w37fhy的精简，修正，同时适用QuantumultX旧版 适用于iOS14不支持Task_gallery功能】
 * [Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗❗
 * 以上配置支持Quantumult_X最新商店版，支持gallery订阅及Url测速，可自动切换最快速度节点。
 * 同时支持B站大会员高帧，百度云会员高清观看倍速，酷我会员资源听取。
 
 * 其他类型懒人配置
-* [NobyDa 大佬精品]
+* [NobyDa 大佬精品](https://github.com/NobyDa)
 * 
 
 ###  部分 Quantumult_X 详细配置规则，可自行DIY！
@@ -99,7 +101,9 @@
 
 
 
-### 免责声明：(任何以任何方式查看此项目的人或直接或间接使用该项目的任何脚本的使用者都应仔细阅读此声明!)
+### 免责声明：
+
+* *任何以任何方式查看此项目的人或直接或间接使用该项目的任何脚本的使用者都应仔细阅读此声明!
 
 * Nan-nx项目中涉及的任何解锁和解密分析脚本仅用于资源共享和学习研究，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
 
@@ -119,42 +123,16 @@
 ### 特别感谢：
 
 
-* [KOP-XIAO](https://github.com/KOP-XIAO)
+* [KOP-XIAO](https://github.com/KOP-XIAO) * [w37fhy](https://github.com/w37fhy) * [Tartarus2014](https://github.com/Tartarus2014) * [nzw9314](https://github.com/nzw9314)
 
-* [w37fhy](https://github.com/w37fhy)
+* [Qure](https://github.com/Koolson/Qure) * [lhie1](https://github.com/lhie1) * [ConnersHua](https://github.com/ConnersHua) * [NobyDa](https://github.com/NobyDa)
 
-* [Tartarus2014](https://github.com/Tartarus2014)
+* [DivineEngine](https://github.com/DivineEngine) * [chavyleung](https://github.com/chavyleung) * [yichahucha](https://github.com/yichahucha) 
 
-* [nzw9314](https://github.com/nzw9314)
+* [langkhach270389](https://github.com/langkhach270389) * [Choler](https://github.com/Choler) * [onewayticket255](https://github.com/onewayticket255)
 
-* [Qure](https://github.com/Koolson/Qure)
+* [NavePnow](https://github.com/NavePnow) * [Meeta](https://github.com/MeetaGit) * [Neurogram-R](https://github.com/Neurogram-R)
 
-* [lhie1](https://github.com/lhie1)
-
-* [ConnersHua](https://github.com/ConnersHua)
-
-* [NobyDa](https://github.com/NobyDa)
-
-* [DivineEngine](https://github.com/DivineEngine)
-
-* [chavyleung](https://github.com/chavyleung)
-
-* [yichahucha](https://github.com/yichahucha)
-
-* [langkhach270389](https://github.com/langkhach270389)
-
-* [Choler](https://github.com/Choler)
-
-* [onewayticket255](https://github.com/onewayticket255)
-
-* [NavePnow](https://github.com/NavePnow)
-
-* [Meeta](https://github.com/MeetaGit)
-
-* [Neurogram-R](https://github.com/Neurogram-R)
-
-* [sazs34](https://github.com/sazs34)
-
-* [guzhig](https://github.com/guzhig)
+* [sazs34](https://github.com/sazs34) * [guzhig](https://github.com/guzhig)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
