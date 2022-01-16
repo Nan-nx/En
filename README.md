@@ -1,23 +1,17 @@
 ###  使用说明 :（2022.01.07更新）
-
 * 收集整理的Quan X配置文件，均来自网络！！
 * 只是搬运和同步更新大佬脚本，不负责维护脚本.
-* 只测试自用脚本，其他大部分脚本未测试可用性.
-
 * 注：Nan-nx/Script Forked from NobyDa/Script  [NobyDa](https://github.com/NobyDa)
 * 注：Nan-nx/scripts Forked from chavyleung/scripts  [chavyleung](https://github.com/chavyleung)
 
-
 ###  自用机场推荐
 * https://b.luxury/waf/4yzbtm2WWSUi5Im82
-
 * 部分订阅节点更新：（规则差异，请注意资源解析器的使用或是相应机场软件）
 * 需机场条件下使用，Clash订阅 https://git.io/emzclashn
 * 匹配资源解析器可使用， https://suo.yt/cssfBJA
 * [genernal]字段下添加括号里内容（resource_parser_url= https://raw.githubusercontent.com/Nan-nx/En/master/Script/resource-parser.js）
 
 ### Quantumult_X 懒人配置：
-
 * *任何懒人配置会覆盖原有配置，建议打开后直接复制相应字段使用）（2021.08.25更新）
 * 【基于w37fhy的精简，修正，同时适用QuantumultX旧版 适用于iOS14不支持Task_gallery功能】
 * [Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗❗
@@ -29,7 +23,6 @@
 * 
 
 ###  部分 Quantumult_X 详细配置规则，可自行DIY！
-
 *  Local
 * static= 节点选择, ♻️ 自动选择, 🇭🇰 香港, 日本,🇸🇬 新加坡, 美国, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Available.png
 * 默认设置10分钟测速一次，当前使用节点延迟和最新测速延迟最低的节点相差100ms以上则切换为最新的最低延迟节点，否则继续延用节点
@@ -79,7 +72,6 @@
 
 
 ### 本地配置：
-
 * 建立本地文件夹目录（自带文件管理）
 * iCloud Drive/QuantumultX/Scripts（若开启QuantumultX设置里的icloud同步）
 * 我的iPhone/QuantumultX/Scripts（若开启QuantumultX设置里的icloud同步）
@@ -90,7 +82,6 @@
 
 
 ### 远程配置：
-
 * [圈X视频教程第一期](https://youtu.be/G1oUtOA1J2w)
 * 
 * [圈X视频教程第二期](https://youtu.be/pLZDK9SACLQ)
@@ -123,16 +114,24 @@
 ### 特别感谢：
 
 
-* [KOP-XIAO](https://github.com/KOP-XIAO) * [w37fhy](https://github.com/w37fhy) * [Tartarus2014](https://github.com/Tartarus2014) * [nzw9314](https://github.com/nzw9314)
-
-* [Qure](https://github.com/Koolson/Qure) * [lhie1](https://github.com/lhie1) * [ConnersHua](https://github.com/ConnersHua) * [NobyDa](https://github.com/NobyDa)
-
-* [DivineEngine](https://github.com/DivineEngine) * [chavyleung](https://github.com/chavyleung) * [yichahucha](https://github.com/yichahucha) 
-
-* [langkhach270389](https://github.com/langkhach270389) * [Choler](https://github.com/Choler) * [onewayticket255](https://github.com/onewayticket255)
-
-* [NavePnow](https://github.com/NavePnow) * [Meeta](https://github.com/MeetaGit) * [Neurogram-R](https://github.com/Neurogram-R)
-
-* [sazs34](https://github.com/sazs34) * [guzhig](https://github.com/guzhig)
+*  [KOP-XIAO](https://github.com/KOP-XIAO) 
+*  [w37fhy](https://github.com/w37fhy) 
+*  [Tartarus2014](https://github.com/Tartarus2014) 
+*  [nzw9314](https://github.com/nzw9314)
+*  [Qure](https://github.com/Koolson/Qure) 
+*  [lhie1](https://github.com/lhie1) 
+*  [ConnersHua](https://github.com/ConnersHua) 
+*  [NobyDa](https://github.com/NobyDa)
+*  [DivineEngine](https://github.com/DivineEngine) 
+*  [chavyleung](https://github.com/chavyleung) 
+*  [yichahucha](https://github.com/yichahucha) 
+*  [langkhach270389](https://github.com/langkhach270389) 
+*  [Choler](https://github.com/Choler) 
+*  [onewayticket255](https://github.com/onewayticket255)
+*  [NavePnow](https://github.com/NavePnow) 
+*  [Meeta](https://github.com/MeetaGit) 
+*  [Neurogram-R](https://github.com/Neurogram-R)
+*  [sazs34](https://github.com/sazs34) 
+*  [guzhig](https://github.com/guzhig)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
