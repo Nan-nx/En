@@ -1,4 +1,4 @@
-###  使用说明 :（2022.01.07更新）
+###  使用说明 :（2022.02.20更新）
 * 收集整理的Quan X配置文件，均来自网络！！
 * 只是搬运和同步更新大佬脚本，不负责维护脚本.
 * 注：Nan-nx/Script Forked from NobyDa/Script  [NobyDa](https://github.com/NobyDa)
@@ -18,9 +18,6 @@
 * 以上配置支持Quantumult_X最新商店版，支持gallery订阅及Url测速，可自动切换最快速度节点。
 * 同时支持B站大会员高帧，百度云会员高清观看倍速，酷我会员资源听取。
 
-* 其他类型懒人配置
-* [NobyDa 大佬精品](https://github.com/NobyDa)
-* 
 
 ###  部分 Quantumult_X 详细配置规则，可自行DIY！
 *  Local
@@ -57,13 +54,7 @@
 *  重度广告拦截-拒绝
 * https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=📩重度广告拦截-拒绝, force-policy=reject, update-interval=86400, opt-parser=false, enabled=false
 
-*  [task_local] (稍微复杂，不要忘了添加主机名。另外，很多定时任务需要加载cookies方可使用，并且方式不太一直，新手不建议。)
-
-*  bilibili
-* 打开浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com
-* 2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=bilibili, img-url=https://raw.githubusercontent.com/Orz-3/task/master/bilibili.png,enabled=true
-* 银瓜子转硬币
-* 2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js, tag=bilibili银瓜子转硬币, img-url=https://raw.githubusercontent.com/Orz-3/task/master/bilibili.png,enabled=true
+*  [task_local] (稍微复杂，不要忘了添加主机名。另外，很多定时任务需要加载cookies方可使用，并且方式不太一致，新手不建议。)
 
 * 机场签到 (by evilbutcher & Neurogram )
 * 使用BoxJs配置订阅及密码
