@@ -2,5 +2,5 @@
 
 主要来自各位大佬，感谢：
 
-*  [Qure](https://github.com/Koolson/Qure) 
-*  [Orz-3](https://github.com/Orz-3/mini) 
+*  [Koolson/Qure](https://github.com/Koolson/Qure) 
+*  [Orz-3/mini](https://github.com/Orz-3/mini) 
