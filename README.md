@@ -1,4 +1,9 @@
-##  Read me --2022.02.20
+[![Nan-nx's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nan-nx&show_icons=true&count_private=true&theme=vue)](https://github.com/Nan-nx/En)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nan-nx&layout=compact&theme=vue)](https://github.com/Nan-nx/En)
+
+
+#  Read me --2022.02.20
 
 * 收集整理的Quan X配置文件，均来自各位大佬：
 *  [NobyDa](https://github.com/NobyDa)
