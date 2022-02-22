@@ -13,7 +13,7 @@
 * https://b.luxury/waf/4yzbtm2WWSUi5Im82
 * 部分订阅节点更新：（规则差异，请注意资源解析器的使用或是相应机场软件）
 * 需机场条件下使用，Clash订阅 https://git.io/emzclashn
-* 匹配资源解析器可使用， https://suo.yt/cssfBJA  [genernal]字段下添加括号里内容（resource_parser_url= https://raw.githubusercontent.com/Nan-nx/En/master/Script/resource-parser.js）
+* 匹配资源解析器可使用， https://suo.yt/cssfBJA  [genernal]字段下添加括号里内容resource_parser_url= https://raw.githubusercontent.com/Nan-nx/En/master/Script/resource-parser.js
 
 ## Quantumult_X 懒人配置：
 
