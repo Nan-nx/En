@@ -2,7 +2,7 @@
 
 
 
-#  Read me --2022.02.20
+# 2022.02.20
 
 * 收集整理的Quan X配置文件，均来自各位大佬：
 *  [NobyDa](https://github.com/NobyDa)
