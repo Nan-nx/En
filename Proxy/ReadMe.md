@@ -1,5 +1,5 @@
 # Free
-* freefq/free  https://https://github.com/freefq/free
+* freefq/free  https://github.com/freefq/free
 * learnhard-cn/free_proxy_ss  https://github.com/learnhard-cn/free_proxy_ss
 * codingbox/Free-Node-Merge  https://github.com/codingbox/Free-Node-Merge
 * ermaozi/get_subscribe  https://github.com/ermaozi/get_subscribe
