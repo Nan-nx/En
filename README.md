@@ -23,10 +23,10 @@
 * 建立本地文件夹目录（自带文件管理）
 * iCloud Drive/QuantumultX/Scripts（若开启QuantumultX设置里的icloud同步）
 * 我的iPhone/QuantumultX/Scripts（若开启QuantumultX设置里的icloud同步）
-* WoringCopy挂载我的[仓库]()  * 挂载[视频教程](https://m.youtube.com/watch?t=3s&v=inCQFnDmRLo)
+* 一般远程挂载，本地挂载更新需手动不方便，详见下一条
 
 ## 远程配置：
-* [圈X视频教程第一期](https://youtu.be/G1oUtOA1J2w)
+* [圈X视频教程第一期](https://yoquanquutu.be/G1oUtOA1J2w)
 * [圈X视频教程第二期](https://youtu.be/pLZDK9SACLQ)
 * [圈X视频教程第三期](https://youtu.be/kKa26Fj0MJA)
 * [圈X视频教程第四期](https://youtu.be/_8_xnEQHGbM)
