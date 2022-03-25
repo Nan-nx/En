@@ -45,5 +45,6 @@
 *  [onewayticket255](https://github.com/onewayticket255)
 *  [Tartarus2014](https://github.com/Tartarus2014) 
 *  [Choler](https://github.com/Choler) 
+*  [app2smile](https://github.com/app2smile/rules)  
  
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
