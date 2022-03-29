@@ -1,6 +1,6 @@
 # Proxy
 *  [自用推荐](https://b.luxury/waf/jCVu3VGrFlVgAcjk2)
-*  
+
 # Free proxy
 *  [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss)
 *  [codingbox/Free-Node-Merge](https://github.com/codingbox/Free-Node-Merge)
