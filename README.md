@@ -47,5 +47,7 @@
 *  [Choler](https://github.com/Choler) 
 *  [app2smile](https://github.com/app2smile/rules)  
 *  [nameking77](https://github.com/nameking77/Qx/tree/main/rewrite)
+*  [ADGai-nai](https://github.com/Zhuliyer/ADGai-nai)
+*  
  
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
