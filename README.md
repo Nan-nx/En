@@ -3,29 +3,25 @@
 * 收集整理的Quan X配置文件，均来自各位大佬，如：
 * [NobyDa](https://github.com/NobyDa)
 * [Chavyleung](https://github.com/chavyleung)
-
 * Quantumult_X推荐使用资源解析器 By [KOP-XIAO](https://github.com/KOP-XIAO) 
-* genernal 字段中添加以下内容：
-* resource_parser_url= https://raw.githubusercontent.com/Nan-nx/En/master/Script/resource-parser.js
-* 
-##  自用机场推荐
 
+
+##  自用机场推荐
 * https://b.luxury/waf/jCVu3VGrFlVgAcjk2
 
 
 
 ## Quantumult_X 懒人配置：
-
-* 任何懒人配置会覆盖原有配置，建议打开后直接复制相应字段使用）（2021.08.25更新）
+* 任何懒人配置会覆盖原有配置，建议打开后直接复制相应字段使用（2022.04.02更新）
 * [Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗❗
 * 以上配置支持Quantumult_X最新商店版，支持gallery订阅及Url测速，可自动切换最快速度节点，同时支持B站大会员高帧，百度云会员高清观看倍速，酷我VIP资源，淘宝/京东比价，微博微信去广告等各种权益。
-*  部分 Quantumult_X 详细配置规则，可自行DIY！
+* Quantumult_X 详细配置规则不赘述，可自行DIY！
 
 ## 本地配置：
 * 建立本地文件夹目录（自带文件管理）
 * iCloud Drive/QuantumultX/Scripts（若开启QuantumultX设置里的icloud同步）
 * 我的iPhone/QuantumultX/Scripts（若开启QuantumultX设置里的icloud同步）
-* 一般远程挂载，本地挂载更新需手动不方便，详见下一条
+* 一般远程挂载，本地挂载更新需手动不方便，详见下一条！！
 
 ## 远程配置：
 * [圈X视频教程第一期](https://yoquanquutu.be/G1oUtOA1J2w)
