@@ -4,13 +4,15 @@
 * [NobyDa](https://github.com/NobyDa)
 * [Chavyleung](https://github.com/chavyleung)
 
+* Quantumult_X推荐使用资源解析器 By [KOP-XIAO](https://github.com/KOP-XIAO) 
+* genernal 字段中添加以下内容：
+* resource_parser_url= https://raw.githubusercontent.com/Nan-nx/En/master/Script/resource-parser.js
+* 
 ##  自用机场推荐
 
 * https://b.luxury/waf/jCVu3VGrFlVgAcjk2
-* 订阅节点链接（规则差异，请注意资源解析器的使用或是相应机场软件）
-* Quantumult_X添加资源解析器 By [KOP-XIAO](https://github.com/KOP-XIAO) 
-* genernal 字段中添加以下内容：
-* resource_parser_url= https://raw.githubusercontent.com/Nan-nx/En/master/Script/resource-parser.js
+
+
 
 ## Quantumult_X 懒人配置：
 
@@ -42,11 +44,10 @@
 *  [ADGai-nai](https://github.com/Zhuliyer/ADGai-nai)
 *  [Yichahucha](https://github.com/yichahucha) 
 *  [Onewayticket255](https://github.com/onewayticket255)
-*  [Tartarus2014](https://github.com/Tartarus2014) 
 *  [App2smile](https://github.com/app2smile/rules)  
 *  [Nameking77](https://github.com/nameking77/Qx/tree/main/rewrite)
 *  [Cuttlefish](https://github.com/ddgksf2013/Cuttlefish)
-*  [Blackmatrix7](https://github.com/blackmatrix7/ios_rule_scrip) 
+*  [Blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) 
 *  [KOP-XIAO](https://github.com/KOP-XIAO)
 *  [Choler](https://github.com/Choler) 
 *  [Qure](https://github.com/Koolson/Qure)
