@@ -1,8 +1,8 @@
 [![Nan-nx's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nan-nx&show_icons=true&count_private=true&theme=vue)](https://github.com/Nan-nx/En)
 
-* 收集整理的Quan X配置文件，均来自各位大佬：
-*  [NobyDa](https://github.com/NobyDa)
-*  [chavyleung](https://github.com/chavyleung)
+* 收集整理的Quan X配置文件，均来自各位大佬，如：
+* [NobyDa](https://github.com/NobyDa)
+* [Chavyleung](https://github.com/chavyleung)
 
 ##  自用机场推荐
 
@@ -39,15 +39,15 @@
 *  [KOP-XIAO](https://github.com/KOP-XIAO) 
 *  [NobyDa](https://github.com/NobyDa)
 *  [DivineEngine](https://github.com/DivineEngine) 
-*  [chavyleung](https://github.com/chavyleung) 
-*  [yichahucha](https://github.com/yichahucha) 
+*  [Chavyleung](https://github.com/chavyleung) 
+*  [Yichahucha](https://github.com/yichahucha) 
 *  [Qure](https://github.com/Koolson/Qure)
-*  [onewayticket255](https://github.com/onewayticket255)
+*  [Onewayticket255](https://github.com/onewayticket255)
 *  [Tartarus2014](https://github.com/Tartarus2014) 
 *  [Choler](https://github.com/Choler) 
-*  [app2smile](https://github.com/app2smile/rules)  
-*  [nameking77](https://github.com/nameking77/Qx/tree/main/rewrite)
+*  [App2smile](https://github.com/app2smile/rules)  
+*  [Nameking77](https://github.com/nameking77/Qx/tree/main/rewrite)
 *  [ADGai-nai](https://github.com/Zhuliyer/ADGai-nai)
-*  
+*  [Cuttlefish](https://github.com/ddgksf2013/Cuttlefish)
  
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
