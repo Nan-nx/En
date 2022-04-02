@@ -7,9 +7,9 @@
 ##  自用机场推荐
 
 * https://b.luxury/waf/jCVu3VGrFlVgAcjk2
-* 部分订阅节点更新：（规则差异，请注意资源解析器的使用或是相应机场软件）
-* 需机场条件下使用，Clash订阅 https://git.io/emzclashn
-* 匹配资源解析器可使用， https://suo.yt/cssfBJA  [genernal]字段中添加以下内容：
+* 订阅节点链接（规则差异，请注意资源解析器的使用或是相应机场软件）
+* Quantumult_X添加资源解析器 By [KOP-XIAO](https://github.com/KOP-XIAO) 
+* genernal 字段中添加以下内容：
 * resource_parser_url= https://raw.githubusercontent.com/Nan-nx/En/master/Script/resource-parser.js
 
 ## Quantumult_X 懒人配置：
