@@ -3,7 +3,7 @@
 * 收集整理的Quan X配置文件，均来自各位大佬，如：
 * [NobyDa](https://github.com/NobyDa)
 * [Chavyleung](https://github.com/chavyleung)
-* Quantumult_X推荐使用资源解析器 By [KOP-XIAO](https://github.com/KOP-XIAO) 
+* [KOP-XIAO](https://github.com/KOP-XIAO) 
 
 
 ##  自用机场推荐
