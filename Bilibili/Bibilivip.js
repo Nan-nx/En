@@ -21,16 +21,16 @@ const vip3 = 'x/v2/account/mine';
 const vip4 = 'x/v2/account/myinfo';
 if (url.indexOf(vip1) != -1) {
 obj.data.account.name="Danaza";
-obj.data.account.rank=88888;
+obj.data.account.rank=22333;
 
 obj.data.vip.type=1;
 obj.data.vip.status= 1;
 obj.data.vip.due_date="2088-12-31";
 obj.data.vip.vip_pay_type=0;
 obj.data.account.face="https://raw.githubusercontent.com/Nan-nx/En/master/En.jpg";
-obj.data.point.balance=88888;
-obj.data.music.count=88888;
-obj.data.pay.couponBalance=88888;
+obj.data.point.balance=22333;
+obj.data.music.count=22333;
+obj.data.pay.couponBalance=22333;
 
 
 body = JSON.stringify(obj);
@@ -50,14 +50,14 @@ body = JSON.stringify(obj);
 
 if (url.indexOf(vip3) != -1||url.indexOf(vip4) != -1) {
 obj.data.name="Danaza";
-obj.data.coins=9999999;
-obj.data.rank=88888;
-obj.data.bcoin=88888;
-obj.data.level=88888;
+obj.data.coins=22333;
+obj.data.rank=22333;
+obj.data.bcoin=22333;
+obj.data.level=22333;
 obj.data.vip_type=1;
-obj.data.following=88888;
-obj.data.follower=88888;
-obj.data.new_followers=88888;
+obj.data.following=22333;
+obj.data.follower=22333;
+obj.data.new_followers=22333;
 obj.data.answer_status=0;
 obj.data.vip.type=1;
 obj.data.vip.status= 1;
