@@ -21,7 +21,7 @@ const vip2 = 'vip/home';
 const vip3 = 'x/v2/account/mine';
 const vip4 = 'x/v2/account/myinfo';
 if (url.indexOf(vip1) != -1) {
-obj.data.account.name="公众号iosrule";
+obj.data.account.name="Danaza";
 obj.data.account.rank=88888;
 
 obj.data.vip.type=1;
@@ -50,7 +50,7 @@ body = JSON.stringify(obj);
 
 
 if (url.indexOf(vip3) != -1||url.indexOf(vip4) != -1) {
-obj.data.name="公众号iosrule";
+obj.data.name="Danaza";
 obj.data.coins=9999999;
 obj.data.rank=88888;
 obj.data.bcoin=88888;
