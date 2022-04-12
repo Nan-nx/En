@@ -38,6 +38,7 @@
 *  [DivineEngine](https://github.com/DivineEngine) 
 *  [Chavyleung](https://github.com/chavyleung) 
 *  [ADGai-nai](https://github.com/Zhuliyer/ADGai-nai)
+*  [Cherish](https://github.com/zmqcherish/proxy-script)
 *  [Yichahucha](https://github.com/yichahucha) 
 *  [Onewayticket255](https://github.com/onewayticket255)
 *  [App2smile](https://github.com/app2smile/rules)  
