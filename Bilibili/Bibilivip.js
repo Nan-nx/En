@@ -3,8 +3,7 @@
 
 本地加载格式如下，需将脚本放到手机本地，方法不赘述
 https:\/\/app\.bilibili\.com\/(x\/vip\/web\/user\/combine|vip\/home|x\/v2\/account\/mine|x\/v2\/account\/myinfo) url script-response-body Bibilivip.js
-若网络挂载，可将url后部分改为https://github.com/Nan-nx/En/edit/master/Bilibili/Bibilivip.js
-
+若网络挂载，可将url后部分改为https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bibilivip.js
 
 
 MITM = app.bilibili.com
@@ -28,7 +27,7 @@ obj.data.vip.type=1;
 obj.data.vip.status= 1;
 obj.data.vip.due_date="2088-12-31";
 obj.data.vip.vip_pay_type=0;
-obj.data.account.face="http://i0.hdslb.com/bfs/face/1803dc5bb62fa6fc9433183c7a127a2fb5934cb9.jpg";
+obj.data.account.face="https://raw.githubusercontent.com/Nan-nx/En/master/En.jpg";
 obj.data.point.balance=88888;
 obj.data.music.count=88888;
 obj.data.pay.couponBalance=88888;
@@ -64,7 +63,7 @@ obj.data.vip.type=1;
 obj.data.vip.status= 1;
 obj.data.vip.due_date="2088-12-31";
 obj.data.vip.vip_pay_type=0;
-obj.data.face="http://i0.hdslb.com/bfs/face/1803dc5bb62fa6fc9433183c7a127a2fb5934cb9.jpg";
+obj.data.face="https://raw.githubusercontent.com/Nan-nx/En/master/En.jpg";
 
 
 body = JSON.stringify(obj);
