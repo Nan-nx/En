@@ -9,7 +9,7 @@
 * 其余后续有详细介绍！！
 
 ## 自用机场：
-* https://b.luxury/waf/jCVu3VGrFlVgAcjk2
+* 几鸡：https://b.luxury/waf/jCVu3VGrFlVgAcjk2
 
 ## 懒人配置：
 * 自用懒人配置：[Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗❗（2022.04.10更新）
