@@ -1,4 +1,4 @@
-## Quan X配置文件
+## 欢迎来到En
 [![Nan-nx's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nan-nx&show_icons=true&count_private=true&theme=vue)](https://github.com/Nan-nx/En)
 
 * 均来自各位大佬，如：
