@@ -1,14 +1,15 @@
 [![Nan-nx's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nan-nx&show_icons=true&count_private=true&theme=vue)](https://github.com/Nan-nx/En)
 
-* 收集整理的Quan X配置文件，均来自各位大佬，如：
+## Quan X配置文件，
+* 均来自各位大佬，如：
 * [NobyDa](https://github.com/NobyDa)
 * [Chavyleung](https://github.com/chavyleung)
 * [KOP-XIAO](https://github.com/KOP-XIAO) 
 
-##  自用机场推荐
+## 自用机场：
 * https://b.luxury/waf/jCVu3VGrFlVgAcjk2
 
-## Quantumult_X 懒人配置：
+## 懒人配置：
 * 任何懒人配置会覆盖原有配置，建议打开后直接复制相应字段使用（2022.04.02更新）
 * [Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗❗
 * 以上配置支持Quantumult_X最新商店版，支持gallery订阅及Url测速，可自动切换最快速度节点，同时支持B站大会员高帧，百度云会员高清观看倍速，酷我VIP资源，淘宝/京东比价，微博微信去广告等各种权益。
