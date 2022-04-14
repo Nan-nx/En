@@ -1,5 +1,5 @@
 /*
-Unlock vip 网络搜集 
+Unlock 高码率
 MITM = app.bilibili.com
 本地加载格式如下，需将脚本放到手机本地，方法不赘述
 https:\/\/app\.bilibili\.com\/(x\/vip\/web\/user\/combine|vip\/home|x\/v2\/account\/mine|x\/v2\/account\/myinfo) url script-response-body Bibilivip.js
