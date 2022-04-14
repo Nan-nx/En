@@ -1,5 +1,6 @@
 ### >图标收集
-
+#### > Qure图标库DIY
+https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/QureColor.json
 #### > Qure图标库，请手动添加图标订阅(黑白)
 https://github.com/Koolson/Qure/raw/master/Other/QureLight-All.json
 #### > Qure图标库，请手动添加图标订阅(彩色)
