@@ -23,7 +23,7 @@ obj.data.vip.type=1;
 obj.data.vip.status= 1;
 obj.data.vip.due_date="2088-12-31";
 obj.data.vip.vip_pay_type=0;
-obj.data.account.face="https://raw.githubusercontent.com/Nan-nx/En/master/En.jpg";
+obj.data.account.face="https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/En.jpg";
 obj.data.point.balance=88888;
 obj.data.music.count=88888;
 obj.data.pay.couponBalance=88888;
@@ -59,7 +59,7 @@ obj.data.vip.type=1;
 obj.data.vip.status= 1;
 obj.data.vip.due_date="2088-12-31";
 obj.data.vip.vip_pay_type=0;
-obj.data.face="https://raw.githubusercontent.com/Nan-nx/En/master/En.jpg";
+obj.data.face="https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/En.jpg";
 
 
 body = JSON.stringify(obj);
