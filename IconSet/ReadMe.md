@@ -1,13 +1,13 @@
 ### >图标收集
-#### > Qure图标库(DIY)
+#### > Qure图标库（DIY）
 ```properties
 https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/En.json
 ```
-#### > Qure图标库(黑白)
+#### > Qure图标库（黑白）
 ```properties
 https://github.com/Koolson/Qure/raw/master/Other/QureLight-All.json
 ```
-#### > Qure图标库(彩色)
+#### > Qure图标库（彩色）
 ```properties
 https://github.com/Koolson/Qure/raw/master/Other/QureColor-All.json
 ```
