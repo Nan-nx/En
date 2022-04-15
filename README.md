@@ -15,9 +15,9 @@
 * 自用懒人配置：[Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗❗（2022.04.10更新）
 * 任何懒人配置会覆盖原有配置，建议打开后直接复制相应字段使用，Quantumult_X 详细配置规则不赘述，可自行DIY！
 * 注：获取GitHub文件可能会因为网络问题失败，借助fastgit可以为GitHub加速，将以下字段相互替换即可：
-```properties  
+````properties  
 https://raw.githubusercontent.com/  
-```
+````
 ```properties 
 https://raw.fastgit.org/  
 ```
