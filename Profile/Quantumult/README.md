@@ -1,13 +1,13 @@
-#### 配置来源 [DivineEngine](https://raw.githubusercontent.com/DivineEngine/Profiles)
 
 | 类别 | 配置 |
 | :------------: | :------------: |
 | 出国版 | [Outbound](https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Outbound.conf) |
 | 回国版 | [Inbound](https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Inbound.conf) |
 
-#### 说明
+* 得益于「资源解析器」的特性，你可以使用 Surge 的 Ruleset、Doaminset 和 Module。
+* 配置来源 [DivineEngine](https://raw.githubusercontent.com/DivineEngine/Profiles)
 
-得益于「资源解析器」的特性，你可以使用 Surge 的 Ruleset、Doaminset 和 Module。
+
 
 #### 关于 IPv6
 
