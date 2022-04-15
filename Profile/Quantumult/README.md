@@ -1,15 +1,11 @@
-### 资源来源（DivineEngine）
-
-[官方 Github 示例](https://github.com/crossutility/Quantumult-X)
-
-### 配置
+#### 配置来源 [DivineEngine](https://raw.githubusercontent.com/DivineEngine/Profiles)
 
 | 类别 | 配置 |
 | :------------: | :------------: |
 | 出国版 | [Outbound](https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Outbound.conf) |
 | 回国版 | [Inbound](https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Inbound.conf) |
 
-### 说明
+#### 说明
 
 得益于「资源解析器」的特性，你可以使用 Surge 的 Ruleset、Doaminset 和 Module。
 
@@ -44,11 +40,11 @@
 
 #### 关于规则及策略组
 
-##### Unbreak
+#### Unbreak
 
 主要用于修正后续规则中 REJECT 及 PROXY 策略的一些不正确情况，如常见的暴力去广告造成的某些推送服务无法使用、使用 Google 的一些可直连服务。
 
-##### Streaming
+#### Streaming
 
 主要为国际流媒体服务，`StreamingMedia` 下目录里的独立分流文件全是从 `Streaming.list` 中剥离出来的。
 
@@ -62,7 +58,7 @@ Streaming 策略组最初的设想使用方式是独立出来给有观看流媒�
 3. `StreamingMedia` 下的 `bilibili.list` 和 `iQiyi.list` 与国内版不是一个 App；
 4. 当不需要「Streaming 策略组」时，`Streaming.list` 策略应该调整为 PROXY 而不是移除；
 
-##### StreamingSE
+#### StreamingSE
 
 一般为中国大陆的流媒体面向港澳台或海外的版本，不同于上述的独立版本，下列流媒体如果直接代理会影响中国大陆版内容的播放。所以以策略组的形式，在需要观看面向港澳台或海外的版本时切换代理，日常可选直连。
 目前支持：
