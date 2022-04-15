@@ -1,23 +1,23 @@
-## 资源
+### 资源
 
 [官方 Github 示例](https://github.com/crossutility/Quantumult-X)
 
-## 配置
+### 配置
 
 | 类别 | 配置 |
 | :------------: | :------------: |
 | 出国版 | [Outbound](https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Outbound.conf) |
 | 回国版 | [Inbound](https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Inbound.conf) |
 
-## 说明
+### 说明
 
 得益于「资源解析器」的特性，你可以使用 Surge 的 Ruleset、Doaminset 和 Module。
 
-### 关于 IPv6
+#### 关于 IPv6
 
 默认并不开启 IPv6，如需要可在文本配置中在 `no-ipv6` 之前加上英文分号。
 
-### 关于 DNS
+#### 关于 DNS
 
 如果所使用的网络没有 DNS 劫持问题，则配置为使用系统 DNS 并追加公共 DNS，如果所使用的网络存在 DNS 劫持问题，则配置为仅使用公共 DNS；
 > 如部分运营商存在劫持海外正常网站至反诈页面的（据目前反馈它们没有抢答公共 DNS，所以）可以在文本配置中将 `;no-system` 开头的英文分号删除以启用。
@@ -28,27 +28,27 @@
 非必要不建议使用 DoH；
 > 必要指的是如中国移动这种抢答公共 DNS 的运营商
 
-### 关于 Apple 分流
+#### 关于 Apple 分流
 
 默认 Apple 分流为直连（除了被动或主动屏蔽的那些，所以 Apple.list 要放在 Global.list 之后），如果想完全走代理可以将「分流」的「引用」的 `Apple.list` 的「策略偏好」修改为「PROXY」。
 
 但若想 Apple 只要国内全走直连只要国外全走代理可将「分流」里「引用」的 `Apple.list` 的勾去掉，**前提是 Apple 相关域名仅使用国内 DNS**。
 
-### 服务器不支持 UDP 转发时的策略行为
+#### 服务器不支持 UDP 转发时的策略行为
 
 当服务器不支持 UDP 转发时会阻止相关 UDP 请求，如果你没有支持 UDP 转发的服务器，可以将 `;fallback_udp_policy=direct` 开头的英文分号移除以开启允许相关 UDP 请求直连。
 
-### 使用自定义 GeoIP 文件
+#### 使用自定义 GeoIP 文件
 
 建议在「其他设置」里「GeoLite2」的「来源」填写使用「 https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb 」并开启「自动更新」
 
-### 关于规则及策略组
+#### 关于规则及策略组
 
-#### Unbreak
+##### Unbreak
 
 主要用于修正后续规则中 REJECT 及 PROXY 策略的一些不正确情况，如常见的暴力去广告造成的某些推送服务无法使用、使用 Google 的一些可直连服务。
 
-#### Streaming
+##### Streaming
 
 主要为国际流媒体服务，`StreamingMedia` 下目录里的独立分流文件全是从 `Streaming.list` 中剥离出来的。
 
@@ -62,7 +62,7 @@ Streaming 策略组最初的设想使用方式是独立出来给有观看流媒�
 3. `StreamingMedia` 下的 `bilibili.list` 和 `iQiyi.list` 与国内版不是一个 App；
 4. 当不需要「Streaming 策略组」时，`Streaming.list` 策略应该调整为 PROXY 而不是移除；
 
-#### StreamingSE
+##### StreamingSE
 
 一般为中国大陆的流媒体面向港澳台或海外的版本，不同于上述的独立版本，下列流媒体如果直接代理会影响中国大陆版内容的播放。所以以策略组的形式，在需要观看面向港澳台或海外的版本时切换代理，日常可选直连。
 目前支持：
@@ -70,7 +70,7 @@ Streaming 策略组最初的设想使用方式是独立出来给有观看流媒�
 - 愛奇藝海外站；
 - 芒果TV国际；
 
-### 从 Surge 迁移到 Quantumult X 可能遇上的问题
+#### 从 Surge 迁移到 Quantumult X 可能遇上的问题
 
 注意，Quantumult X 并没有官方文档，所以以下内容可能有误。
 
