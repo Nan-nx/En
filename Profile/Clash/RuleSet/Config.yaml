@@ -1,4 +1,4 @@
-# 请使用最新版Clash
+# 请使用最新版Clash（V 0.19.11）
 # 将proxy-providers里面链接中的“你的订阅链接”全部替换即可
 mixed-port: 7890
 allow-lan: true
