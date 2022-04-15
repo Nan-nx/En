@@ -1,4 +1,4 @@
-### 资源
+### 资源来源（DivineEngine）
 
 [官方 Github 示例](https://github.com/crossutility/Quantumult-X)
 
