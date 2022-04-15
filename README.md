@@ -15,7 +15,7 @@
 * 自用懒人配置：[Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗❗（2022.04.10更新）
 * 基本功能：自动切换最快速度节点，同时支持B站大会员高帧，百度云会员高清观看倍速，酷我VIP资源，淘宝/京东比价，微博微信去广告等各种权益。
 * 任何懒人配置会覆盖原有配置，建议打开后直接复制相应字段使用，Quantumult_X 详细配置规则不赘述，可自行DIY！
-* 注：获取GitHub文件可能会因为网络问题失败，借助fastgit可以为GitHub加速，所有使用```properties https://raw.githubusercontent.com/ ```处都可以使用 ```propertieshttps://raw.fastgit.org/ ```进行替换。
+* 注：获取GitHub文件可能会因为网络问题失败，借助fastgit可以为GitHub加速，所有使用```properties  https://raw.githubusercontent.com/  ```处都可以使用 ```properties https://raw.fastgit.org/  ```进行替换。
 
 #### 视频教程：
 * [圈X视频教程第一期](https://youtu.be/G1oUtOA1J2w)
