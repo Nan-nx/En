@@ -8,22 +8,22 @@
 * 资源广泛，去广告、破解VIP资源：[NobyDa](https://github.com/NobyDa/Script)
 * 其余后续有详细介绍！！
 
-### 自用机场：
+#### 自用机场：
 * 几鸡：https://b.luxury/waf/jCVu3VGrFlVgAcjk2
 
-### 懒人配置：
+#### 懒人配置：
 * 自用懒人配置：[Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗❗（2022.04.10更新）
 * 基本功能：自动切换最快速度节点，同时支持B站大会员高帧，百度云会员高清观看倍速，酷我VIP资源，淘宝/京东比价，微博微信去广告等各种权益。
 * 任何懒人配置会覆盖原有配置，建议打开后直接复制相应字段使用，Quantumult_X 详细配置规则不赘述，可自行DIY！
 
-### 视频教程：
+#### 视频教程：
 * [圈X视频教程第一期](https://youtu.be/G1oUtOA1J2w)
 * [圈X视频教程第二期](https://youtu.be/pLZDK9SACLQ)
 * [圈X视频教程第三期](https://youtu.be/kKa26Fj0MJA)
 * [圈X视频教程第四期](https://youtu.be/_8_xnEQHGbM)
 
 
-### 特别感谢：
+#### 特别感谢：
 
 *  图标资源库：[Qure](https://github.com/Koolson/Qure)
 *  部分VIP资源：[Yichahucha](https://github.com/yichahucha) 
