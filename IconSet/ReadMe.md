@@ -25,4 +25,4 @@ https://github.com/Orz-3/mini/raw/master/Color%2B.json
 
 ####  [Koolson/Qure](https://github.com/Koolson/Qure) 
 ####  [Orz-3/mini](https://github.com/Orz-3/mini) 
-
+####  [Orz-3/face](https://github.com/Orz-3/face)
