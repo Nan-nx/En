@@ -35,3 +35,4 @@
 *  部分去广告资源：[Onewayticket255](https://github.com/onewayticket255)
 *  部分去广告资源：[Blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) 
 *  各种分流策略、规则等：[DivineEngine](https://github.com/DivineEngine)
+*  也很不错：[zZPiglet](https://github.com/zZPiglet/Task/tree/master)
