@@ -14,7 +14,7 @@
 #### 自用配置：
 * 自用配置：[Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗❗（2022.04.10更新）
 * 直接引用会覆盖原有配置，建议打开后直接复制相应字段使用，可自行DIY！
-* 可借助fastgit可以为GitHub加速：```https://raw.githubusercontent.com/```替换为```https://raw.fastgit.org/```
+* 可借助fastgit可以为GitHub加速：```https://raw.githubusercontent.com/``` 替换为 ```https://raw.fastgit.org/```
 * 基本功能：支持B站大会员高帧，百度云会员高清观看倍速，酷我VIP资源，淘宝/京东比价，微博微信去广告等各种权益。
 
 #### 视频教程：
