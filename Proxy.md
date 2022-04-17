@@ -1,8 +1,10 @@
 ### Proxy
 
-<p align="center">
-<a href="https://github.com/Nan-nx/En"><img src="https://img.shields.io/github/workflow/status/Nan-nx/En?logo=github&label=tests" alt="Build status"/></a>
-</p>
+ <p align="left">
+ 	<a href="https://github.com/Nan-nx/En/blob/master/Proxy.md"><img src='https://img.shields.io/badge/Proxy-v2.0-blue'/></a>
+	<a href="https://t.me/Nan_nx"><img src='https://img.shields.io/badge/by-Nan--nx-green'/></a>
+ </p>
+ 
 
 *  [自用推荐](https://b.luxury/waf/jCVu3VGrFlVgAcjk2)
 
