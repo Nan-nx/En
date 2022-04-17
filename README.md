@@ -3,8 +3,8 @@
 <p align="left">
  	 	<img src='https://img.shields.io/badge/Quan_X-v1.0-blue'>
     <img src='https://img.shields.io/badge/by-Nan--nx-green'>
-
  </p>
+ 
 * 均来自各位大佬：
 * 资源解析器：[KOP-XIAO](https://github.com/KOP-XIAO) 
 * Boxjs、各种签到脚本：[Chavyleung](https://github.com/chavyleung)
