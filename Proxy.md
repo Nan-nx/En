@@ -1,4 +1,9 @@
 ### Proxy
+
+<p align="center">
+<a href="https://github.com/Nan-nx/En/query=workflow%3AVerify+branch%3Adevelop"><img src="https://img.shields.io/github/workflow/status/Nan-nx/En/Verify/develop?logo=github&label=tests" alt="Build status"/></a>
+</p>
+
 *  [自用推荐](https://b.luxury/waf/jCVu3VGrFlVgAcjk2)
 
 ### Free proxy
