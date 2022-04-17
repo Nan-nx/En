@@ -1,15 +1,15 @@
 ### Welcome to En ！
 [![Nan-nx's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nan-nx&show_icons=true&count_private=true&theme=vue)](https://github.com/Nan-nx/En)
-
+<p align="left">
+ 	<img src='https://img.shields.io/badge/by-Nan--nx-green'>
+ 	<img src='https://img.shields.io/badge/Quan_X-v1.0-blue'>
+ </p>
 * 均来自各位大佬：
 * 资源解析器：[KOP-XIAO](https://github.com/KOP-XIAO) 
 * Boxjs、各种签到脚本：[Chavyleung](https://github.com/chavyleung)
 * 各种资源整合、实用脚本等：[Cuttlefish](https://github.com/ddgksf2013/Cuttlefish)
 * 资源广泛，去广告、破解VIP资源：[NobyDa](https://github.com/NobyDa/Script)
-* <p align="left">
- 	<img src='https://img.shields.io/badge/by-Nan--nx-green'>
- 	<img src='https://img.shields.io/badge/Quan_X-v1.0-blue'>
- </p>
+ 
 
 #### 自用机场：
 * 几鸡：https://b.luxury/waf/jCVu3VGrFlVgAcjk2
