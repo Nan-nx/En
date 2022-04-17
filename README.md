@@ -1,8 +1,9 @@
 ### Welcome to En ！
 [![Nan-nx's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nan-nx&show_icons=true&count_private=true&theme=vue)](https://github.com/Nan-nx/En)
 <p align="left">
- 	<img src='https://img.shields.io/badge/by-Nan--nx-green'>
- 	<img src='https://img.shields.io/badge/Quan_X-v1.0-blue'>
+ 	 	<img src='https://img.shields.io/badge/Quan_X-v1.0-blue'>
+    <img src='https://img.shields.io/badge/by-Nan--nx-green'>
+
  </p>
 * 均来自各位大佬：
 * 资源解析器：[KOP-XIAO](https://github.com/KOP-XIAO) 
