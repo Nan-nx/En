@@ -1,8 +1,9 @@
 ### Proxy
 
-<p align="center">
-<a href="https://github.com/Nan-nx/En/query=workflow%3AVerify+branch%3Adevelop"><img src="https://img.shields.io/github/workflow/status/Nan-nx/En/Verify/develop?logo=github&label=tests" alt="Build status"/></a>
-</p>
+<p align="left">
+ 	 	<a href="https://github.com/Nan-nx/En/> <img src='https://img.shields.io/badge/Quan_X-v1.0-blue'>
+    <img src='https://img.shields.io/badge/by-Nan--nx-green'>
+ </p>
 
 *  [自用推荐](https://b.luxury/waf/jCVu3VGrFlVgAcjk2)
 
