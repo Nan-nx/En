@@ -6,7 +6,7 @@
 * Boxjs、各种签到脚本：[Chavyleung](https://github.com/chavyleung)
 * 各种资源整合、实用脚本等：[Cuttlefish](https://github.com/ddgksf2013/Cuttlefish)
 * 资源广泛，去广告、破解VIP资源：[NobyDa](https://github.com/NobyDa/Script)
-<p align="left">
+* <p align="left">
  	<img src='https://img.shields.io/badge/by-Nan--nx-green'>
  	<img src='https://img.shields.io/badge/Quan_X-v1.0-blue'>
  </p>
