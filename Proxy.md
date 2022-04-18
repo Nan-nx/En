@@ -1,8 +1,7 @@
-#### [Proxy?](https://www.v2rayfree.eu.org/post/free-v2ray)
  <p align="left">
- 	<a href="https://github.com/Nan-nx/En/blob/master/Proxy.md"><img src='https://img.shields.io/badge/Proxy-v2.0-blue'/></a>
+ 	<a href="https://www.v2rayfree.eu.org/post/free-v2ray"><img src='https://img.shields.io/badge/Proxy-v2.0-blue'/></a>
 	<a href="https://t.me/Nan_nx"><img src='https://img.shields.io/badge/by-Nan--nx-green'/></a>
- </p>
+	 </p>
  
 *  [自用](https://b.luxury/waf/jCVu3VGrFlVgAcjk2)
 *  [freefq/free](https://github.com/freefq/free)
