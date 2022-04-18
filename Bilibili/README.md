@@ -1,8 +1,8 @@
-#### Bilibili 部分vip功能（20200108更新）
+### Bilibili 部分vip功能（20200108更新）
 
 > 脚本详见https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bibilivip.js
 > 
-### Bilibili
+#### Bilibili
 
 > 代码已同时兼容 Surge & QuanX, 使用同一份签到脚本即可
 
@@ -12,7 +12,7 @@
 
 > 2020.3.16 添加银瓜子转硬币脚本 感谢[@lcandy2](https://github.com/lcandy2) PR
 
-### 配置 (Surge)
+#### 配置 (Surge)
 
 ```properties
 [MITM]
@@ -25,7 +25,7 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js
 ```
 
-### 配置 (QuanX)
+#### 配置 (QuanX)
 
 ```properties
 [MITM]
@@ -43,7 +43,7 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 1 0 * * * bilibili.silver2coin.js
 ```
 
-### 说明
+#### 说明
 
 1. 先在浏览器登录 `(先登录! 先登录! 先登录!)`
 2. 先把`*.bilibili.com`加到`[MITM]`
@@ -58,7 +58,7 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 
 > 第 2 条脚本是签到脚本, 每天`00:00:10`执行一次.
 
-### 常见问题
+#### 常见问题
 
 1. 无法写入 Cookie
 
@@ -100,7 +100,7 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
      */60 * * * * xxx.js # 每60分执行一次
      ```
 
-### 感谢
+#### 感谢
 
 [@NobyDa](https://github.com/NobyDa)
 
