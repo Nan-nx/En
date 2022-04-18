@@ -1,11 +1,5 @@
 ### Proxy
 
- <p align="left">
- 	<a href="https://github.com/Nan-nx/En/blob/master/Proxy.md"><img src='https://img.shields.io/badge/Proxy-v2.0-blue'/></a>
-	<a href="https://t.me/Nan_nx"><img src='https://img.shields.io/badge/by-Nan--nx-green'/></a>
- </p>
- 
-
 *  [自用推荐](https://b.luxury/waf/jCVu3VGrFlVgAcjk2)
 
 ### Free proxy
@@ -15,3 +9,8 @@
 *  [freefq/free](https://github.com/freefq/free)
 * 部分解析需要用到资源解析器
 
+ <p align="left">
+ 	<a href="https://github.com/Nan-nx/En/blob/master/Proxy.md"><img src='https://img.shields.io/badge/Proxy-v2.0-blue'/></a>
+	<a href="https://t.me/Nan_nx"><img src='https://img.shields.io/badge/by-Nan--nx-green'/></a>
+ </p>
+ 
