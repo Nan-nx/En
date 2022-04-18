@@ -6,7 +6,7 @@
 [![GitHub release](https://img.shields.io/github/release/Nan-nx/En.svg)](https://github.com/Nan-nx/En/releases)
 [![Issues](https://img.shields.io/github/issues/Nan-nx/En)](https://github.com/Nan-nx/En/issues)
 
-[![Commit](https://img.shields.io/github/commit-activity/m/Nan-nx/En?label=commits)](https://github.com/Nan-nx/En/commits/master)
+[![Commit](https://img.shields.io/github/commit-activity/m/Nan-nx/En?label=Commits)](https://github.com/Nan-nx/En/commits/master)
 ![](https://visitor-badge.glitch.me/badge?page_id=Nan-nx)
 [![GitHub license](https://img.shields.io/github/license/Nan-nx/En.svg)](https://github.com/Nan-nx/En/blob/master/LICENSE) 
 
