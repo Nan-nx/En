@@ -12,6 +12,9 @@
 
 <a href="https://github.com/Nan-nx/En"><img src='https://img.shields.io/badge/Quan_X-v2.0-brown'/></a> 
 <a href="https://github.com/Nan-nx/Book"><img src='https://img.shields.io/badge/Book-v3.0-red'/></a> 
+[![Stars](https://img.shields.io/github/stars/ddgksf2013/Cuttlefish)](https://github.com/Nan-nx/En/stargazers)
+
+[![Github Badge](https://img.shields.io/badge/-Github-232323?style=flat-square&logo=Github&logoColor=white&link=https://github.com/Nan-nx)](https://github.com/Nan-nx)
 <a href="https://t.me/Nan_nx"><img src='https://img.shields.io/badge/by-Nan--nx-green'/></a>
  
 * 均来自各位大佬：
