@@ -8,11 +8,12 @@
 
 [![Commit](https://img.shields.io/github/commit-activity/m/Nan-nx/En?label=Commits)](https://github.com/Nan-nx/En/commits/master)
 ![](https://visitor-badge.glitch.me/badge?page_id=Nan-nx)
-[![GitHub license](https://img.shields.io/github/license/Nan-nx/En.svg)](https://github.com/Nan-nx/En/blob/master/LICENSE) 
+[![Stars](https://img.shields.io/github/stars/Nan-nx/En)](https://github.com/Nan-nx/En/stargazers)
 
 <a href="https://github.com/Nan-nx/En"><img src='https://img.shields.io/badge/Quan_X-v2.0-brown'/></a> 
 <a href="https://github.com/Nan-nx/Book"><img src='https://img.shields.io/badge/Book-v3.0-red'/></a> 
-[![Stars](https://img.shields.io/github/stars/Nan-nx/En)](https://github.com/Nan-nx/En/stargazers)
+[![GitHub license](https://img.shields.io/github/license/Nan-nx/En.svg)](https://github.com/Nan-nx/En/blob/master/LICENSE) 
+
 
 [![Github Badge](https://img.shields.io/badge/-Github-232323?style=flat-square&logo=Github&logoColor=white&link=https://github.com/Nan-nx)](https://github.com/Nan-nx)
 <a href="https://t.me/Nan_nx"><img src='https://img.shields.io/badge/by-Nan--nx-green'/></a>
