@@ -15,9 +15,7 @@
 [![GitHub license](https://img.shields.io/github/license/Nan-nx/En.svg)](https://github.com/Nan-nx/En/blob/master/LICENSE) 
 
 
-[![Github Badge](https://img.shields.io/badge/-Github-232323?style=flat-square&logo=Github&logoColor=white&link=https://github.com/Nan-nx)](https://github.com/Nan-nx)
-<a href="https://t.me/Nan_nx"><img src='https://img.shields.io/badge/by-Nan--nx-green'/></a>
- 
+
 * 均来自各位大佬：
 * 资源解析器：[KOP-XIAO](https://github.com/KOP-XIAO) 
 * Boxjs、各种签到脚本：[Chavyleung](https://github.com/chavyleung)
@@ -53,3 +51,7 @@
 *  部分去广告资源：[Blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) 
 *  各种分流策略、规则等：[DivineEngine](https://github.com/DivineEngine)
 *  专注于搜索跳转，引擎转化：[zZPiglet](https://github.com/zZPiglet/Task/tree/master)
+
+[![Github Badge](https://img.shields.io/badge/-Github-232323?style=flat-square&logo=Github&logoColor=white&link=https://github.com/Nan-nx)](https://github.com/Nan-nx)
+<a href="https://t.me/Nan_nx"><img src='https://img.shields.io/badge/By-Nan--nx-green'/></a>
+ 
