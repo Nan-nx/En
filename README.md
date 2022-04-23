@@ -10,7 +10,7 @@ Boxjs、各种签到脚本：[Chavyleung](https://github.com/chavyleung)
 
 资源广泛，去广告、破解VIP资源：[NobyDa](https://github.com/NobyDa/Script)
 
-[![Build Status](https://github.com/Nan-nx/En/actions/workflows/build.yml/badge.svg)](https://github.com/Nan-nx/En/actions)
+* [![Build Status](https://github.com/Nan-nx/En/actions/workflows/build.yml/badge.svg)](https://github.com/Nan-nx/En/actions)
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/Nan-nx/En.svg)](https://github.com/Nan-nx/En/tags)
 [![GitHub release](https://img.shields.io/github/release/Nan-nx/En.svg)](https://github.com/Nan-nx/En/releases)
 
