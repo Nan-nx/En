@@ -10,7 +10,7 @@
 * 各种资源整合、实用脚本等：[Cuttlefish](https://github.com/ddgksf2013/Cuttlefish)
 * 资源广泛，去广告、破解VIP资源：[NobyDa](https://github.com/NobyDa/Script)
 
-* [![Issues](https://img.shields.io/github/issues/Nan-nx/En)](https://github.com/Nan-nx/En/issues)
+[![Issues](https://img.shields.io/github/issues/Nan-nx/En)](https://github.com/Nan-nx/En/issues)
 [![Commit](https://img.shields.io/github/commit-activity/m/Nan-nx/En?label=commits)](https://github.com/Nan-nx/En/commits/master)
 [![Stars](https://img.shields.io/github/stars/Nan-nx/En)](https://github.com/Nan-nx/En/stargazers)
 ![](https://visitor-badge.glitch.me/badge?page_id=Nan-nx)
