@@ -1,4 +1,4 @@
-### Welcome to En ！
+## <img src="hello.gif" width="65px">  
 
 &nbsp;&nbsp;&nbsp;[![Build Status](https://github.com/Nan-nx/En/actions/workflows/build.yml/badge.svg)](https://github.com/Nan-nx/En/actions)
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/Nan-nx/En.svg)](https://github.com/Nan-nx/En/tags)
