@@ -27,10 +27,10 @@
 * 基本功能：支持B站大会员高帧，百度云会员高清观看倍速，酷我VIP资源，淘宝/京东比价，微博微信去广告等各种权益。
 
 #### 视频教程：
-* [Quan_X No.1](https://youtu.be/G1oUtOA1J2w)
-* [Quan_X No.2](https://youtu.be/pLZDK9SACLQ)
-* [Quan_X No.3](https://youtu.be/kKa26Fj0MJA)
-* [Quan_X No.4](https://youtu.be/_8_xnEQHGbM)
+* YouTube Tips[Quan_X No.1](https://youtu.be/G1oUtOA1J2w)
+* YouTube Tips[Quan_X No.2](https://youtu.be/pLZDK9SACLQ)
+* YouTube Tips[Quan_X No.3](https://youtu.be/kKa26Fj0MJA)
+* YouTube Tips[Quan_X No.4](https://youtu.be/_8_xnEQHGbM)
 
 
 #### 特别感谢：
