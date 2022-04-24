@@ -18,7 +18,7 @@
 
 
 #### 自用机场：
-* 几鸡：https://b.luxury/waf/jCVu3VGrFlVgAcjk2
+* https://b.luxury/waf/jCVu3VGrFlVgAcjk2
 
 #### 自用配置：
 * 自用配置：[Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗❗
