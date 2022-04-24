@@ -20,17 +20,12 @@
 #### 自用机场：
 * https://b.luxury/waf/jCVu3VGrFlVgAcjk2
 
+
 #### 自用配置：
 * 自用配置：[Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗❗
 * 直接引用会覆盖原有配置，建议打开后直接复制相应字段使用，可自行DIY！
 * 可借助fastgit为GitHub加速：```https://raw.githubusercontent.com/``` 替换为 ```https://raw.fastgit.org/```
 * 基本功能：支持B站大会员高帧，百度云会员高清观看倍速，酷我VIP资源，淘宝/京东比价，微博微信去广告等各种权益。
-
-#### 视频教程：
-* YouTube Tips[Quan_X No.1](https://youtu.be/G1oUtOA1J2w)
-* YouTube Tips[Quan_X No.2](https://youtu.be/pLZDK9SACLQ)
-* YouTube Tips[Quan_X No.3](https://youtu.be/kKa26Fj0MJA)
-* YouTube Tips[Quan_X No.4](https://youtu.be/_8_xnEQHGbM)
 
 
 #### 特别感谢：
