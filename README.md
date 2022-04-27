@@ -1,14 +1,5 @@
 ## <img src="https://raw.githubusercontent.com/Nan-nx/Nan-nx/main/hello.gif" width="65px">  
 
-[![Build Status](https://github.com/Nan-nx/En/actions/workflows/build.yml/badge.svg)](https://github.com/Nan-nx/En/actions)
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/Nan-nx/En.svg)](https://github.com/Nan-nx/En/tags)
-[![GitHub release](https://img.shields.io/github/release/Nan-nx/En.svg)](https://github.com/Nan-nx/En/releases)
-
-[![Issues](https://img.shields.io/github/issues/Nan-nx/En)](https://github.com/Nan-nx/En/issues)
-[![Commit](https://img.shields.io/github/commit-activity/m/Nan-nx/En?label=commits)](https://github.com/Nan-nx/En/commits/master)
-[![Stars](https://img.shields.io/github/stars/Nan-nx/En)](https://github.com/Nan-nx/En/stargazers)
-![](https://visitor-badge.glitch.me/badge?page_id=Nan-nx)
-
 [![Nan-nx's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nan-nx&show_icons=true&count_private=true&theme=vue)](https://github.com/Nan-nx)
 
 - 仅作整理，各资源均来自各位大佬：
@@ -17,6 +8,14 @@
 - 各种资源整合、实用脚本等：[Cuttlefish](https://github.com/ddgksf2013/Cuttlefish)
 - 资源广泛，去广告、破解VIP资源：[NobyDa](https://github.com/NobyDa/Script)
 
+[![Build Status](https://github.com/Nan-nx/En/actions/workflows/build.yml/badge.svg)](https://github.com/Nan-nx/En/actions)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/Nan-nx/En.svg)](https://github.com/Nan-nx/En/tags)
+[![GitHub release](https://img.shields.io/github/release/Nan-nx/En.svg)](https://github.com/Nan-nx/En/releases)
+
+[![Issues](https://img.shields.io/github/issues/Nan-nx/En)](https://github.com/Nan-nx/En/issues)
+[![Commit](https://img.shields.io/github/commit-activity/m/Nan-nx/En?label=commits)](https://github.com/Nan-nx/En/commits/master)
+[![Stars](https://img.shields.io/github/stars/Nan-nx/En)](https://github.com/Nan-nx/En/stargazers)
+![](https://visitor-badge.glitch.me/badge?page_id=Nan-nx)
 
 #### 自用机场：
 * https://b.luxury/waf/jCVu3VGrFlVgAcjk2
