@@ -2,10 +2,6 @@
 
 ##### 仅作整理，各资源均来自各位大佬：
 
-* 资源解析器：[KOP-XIAO](https://github.com/KOP-XIAO) 
-* Boxjs、各种签到脚本：[Chavyleung](https://github.com/chavyleung)
-* 各种资源整合、实用脚本等：[Cuttlefish](https://github.com/ddgksf2013/Cuttlefish)
-* 资源广泛，去广告、破解VIP资源：[NobyDa](https://github.com/NobyDa/Script)
 
 [![Nan-nx's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nan-nx&show_icons=true&count_private=true&theme=vue)](https://github.com/Nan-nx)
 
@@ -16,6 +12,11 @@
 [![Commit](https://img.shields.io/github/commit-activity/m/Nan-nx/En?label=commits)](https://github.com/Nan-nx/En/commits/master)
 [![Stars](https://img.shields.io/github/stars/Nan-nx/En)](https://github.com/Nan-nx/En/stargazers)
 ![](https://visitor-badge.glitch.me/badge?page_id=Nan-nx)
+
+* 资源解析器：[KOP-XIAO](https://github.com/KOP-XIAO) 
+* Boxjs、各种签到脚本：[Chavyleung](https://github.com/chavyleung)
+* 各种资源整合、实用脚本等：[Cuttlefish](https://github.com/ddgksf2013/Cuttlefish)
+* 资源广泛，去广告、破解VIP资源：[NobyDa](https://github.com/NobyDa/Script)
 
 #### 自用机场：
 * https://b.luxury/waf/jCVu3VGrFlVgAcjk2
