@@ -1,7 +1,7 @@
 ## <img src="https://raw.githubusercontent.com/Nan-nx/Nan-nx/main/hello.gif" width="65px">  
 
 
-- 仅作整理，各资源均来自各位大佬：
+##### 仅作整理，各资源均来自各位大佬：
 - 资源解析器：[KOP-XIAO](https://github.com/KOP-XIAO) 
 - Boxjs、各种签到脚本：[Chavyleung](https://github.com/chavyleung)
 - 各种资源整合、实用脚本等：[Cuttlefish](https://github.com/ddgksf2013/Cuttlefish)
