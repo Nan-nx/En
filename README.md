@@ -1,4 +1,4 @@
-## <img src="https://raw.githubusercontent.com/Nan-nx/Nan-nx/main/hello.gif" width="65px">  
+## <a href="https://t.me/Nan_nx"><img src="https://raw.githubusercontent.com/Nan-nx/Nan-nx/main/hello.gif" width="65px"/></a>
 
 ##### 仅作整理，各资源均来自各位大佬：
 
