@@ -1,0 +1,14 @@
+#线路来源于网络
+#更新时间：2022.5.5
+#资源频道：https://t.me/yqc_123
+#问题反馈：https://t.me/yqc_777
+
+http=music.lolico.me:39000, fast-open=false, udp-relay=false, tag=Music 1
+
+http=MUSIC.GRIOUGES.CN:39000, over-tls=false, fast-open=false, udp-relay=false, tag=Music 2
+
+http=SALVAN.ICU:19980, over-tls=false, fast-open=false, udp-relay=false, tag=Music 3
+
+shadowsocks=MUSIC.DESPERADOJ.COM:30001, method=aes-128-gcm, password=desperadoj.com_free_proxy_d39m, fast-open=false, udp-relay=false, tag=Music 4
+
+shadowsocks=MUSIC.DESPERADOJ.COM:30003, method=aes-128-gcm, password=desperadoj.com_free_proxy_d39m, fast-open=false, udp-relay=false, tag=Music 5
