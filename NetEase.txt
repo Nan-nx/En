@@ -2,6 +2,8 @@
 #更新时间：2022.5.5
 #资源频道：https://t.me/yqc_123
 #问题反馈：https://t.me/yqc_777
+#https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/AgentNode/NeteaseMusicUnlock.list
+#https://raw.githubusercontent.com/nameking77/Qx/main/music/wyy.txt
 
 http=music.lolico.me:39000, fast-open=false, udp-relay=false, tag=Music 1
 
