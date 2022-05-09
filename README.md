@@ -21,7 +21,7 @@
 
 #### 自用机场：
 * https://b.luxury/waf/jCVu3VGrFlVgAcjk2
-## <a href="https://b.luxury/waf/jCVu3VGrFlVgAcjk2"><img src="https://raw.githubusercontent.com/Nan-nx/Nan-nx/main/proxy.png" width="650px"/></a>
+## <a href="https://b.luxury/waf/jCVu3VGrFlVgAcjk2"><img src="https://raw.githubusercontent.com/Nan-nx/Nan-nx/main/proxy.png" width="500px"/></a>
 
 
 
