@@ -20,11 +20,8 @@
 
 
 #### 自用机场：
-* https://xn--4gq62f52gdss.com/#/register?code=UfMGCIdM
 * https://b.luxury/waf/jCVu3VGrFlVgAcjk2
-;<a href="https://b.luxury/waf/jCVu3VGrFlVgAcjk2"><img src="https://raw.githubusercontent.com/Nan-nx/Nan-nx/main/proxy.png" width="500px"/></a>
-
-
+* https://xn--4gq62f52gdss.com/#/register?code=UfMGCIdM
 
 #### 自用配置：
 * 自用配置：[Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗❗
@@ -32,9 +29,7 @@
 * 可借助fastgit为GitHub加速：```https://raw.githubusercontent.com/``` 替换为 ```https://raw.fastgit.org/```
 * 基本功能：支持B站大会员高帧，百度云会员高清观看倍速，酷我VIP资源，淘宝/京东比价，微博微信去广告等各种权益。
 
-
 #### 特别感谢：
-
 *  图标资源库：[Qure](https://github.com/Koolson/Qure)
 *  部分VIP资源：[Yichahucha](https://github.com/yichahucha) 
 *  部分VIP资源：[App2smile](https://github.com/app2smile/rules)  
