@@ -116,6 +116,3 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 [![GitHub license](https://img.shields.io/github/license/Nan-nx/En.svg)](https://github.com/Nan-nx/En/blob/master/LICENSE) 
 <a href="https://t.me/Nan_nx"><img src='https://img.shields.io/badge/By-Nan--nx-green'/></a>
 
-[@ConnersHua](https://github.com/ConnersHua)
-
-[@lcandy2](https://github.com/lcandy2)
