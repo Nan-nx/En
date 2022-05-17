@@ -1,8 +1,5 @@
 ## <a href="https://t.me/Nan_nx"><img src="https://raw.githubusercontent.com/Nan-nx/Nan-nx/main/hello.gif" width="65px"/></a>
 
-##### 仅作整理，各资源均来自各位大佬：
-
-
 [![Nan-nx's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nan-nx&show_icons=true&count_private=true&theme=vue)](https://github.com/Nan-nx)
 
 * 资源解析器：[KOP-XIAO](https://github.com/KOP-XIAO) 
