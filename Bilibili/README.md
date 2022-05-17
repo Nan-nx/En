@@ -3,9 +3,6 @@
 ### 配置引用
 https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bilibili.conf
 
-
-#######################################################################################################
-
 <a href="https://github.com/Nan-nx/En"><img src='https://img.shields.io/badge/Quan_X-v2.0-brown'/></a> 
 <a href="https://github.com/Nan-nx/Scriptable"><img src='https://img.shields.io/badge/Scriptable-v1.0-orange'/></a>
 <a href="https://github.com/Nan-nx/Book"><img src='https://img.shields.io/badge/Book-v3.0-red'/></a> 
@@ -20,8 +17,9 @@ https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bilibili.conf
 [![Stars](https://img.shields.io/github/stars/Nan-nx/En)](https://github.com/Nan-nx/En/stargazers)
 ![](https://visitor-badge.glitch.me/badge?page_id=Nan-nx)
 
-
-#### 关于[Bibilivip.js](https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bibilivip.js)
+--------------------------------------分割线------------------------------------
+#### 关于Bibilivip.js
+[Bibilivip.js](https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bibilivip.js)
 
 > 代码已同时兼容 Surge & QuanX, 使用同一份签到脚本即可
 
@@ -62,7 +60,7 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 1 0 * * * bilibili.silver2coin.js
 ```
 
-#### 说明
+#### 其他说明
 
 1. 先在浏览器登录 `(先登录! 先登录! 先登录!)`
 2. 先把`*.bilibili.com`加到`[MITM]`
@@ -92,31 +90,4 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 3. 为什么有时成功有时失败
 
    - 很正常，网络问题，哪怕你是手工签到也可能失败（凌晨签到容易拥堵就容易失败）
-   - 暂时不考虑代码级的重试机制，但咱有配置级的（暴力美学）：
-
-   - `Surge`配置:
-
-     ```properties
-     # 没有什么是一顿饭解决不了的:
-     cron "10 0 0 * * *" script-path=xxx.js # 每天00:00:10执行一次
-     # 如果有，那就两顿:
-     cron "20 0 0 * * *" script-path=xxx.js # 每天00:00:20执行一次
-     # 实在不行，三顿也能接受:
-     cron "30 0 0 * * *" script-path=xxx.js # 每天00:00:30执行一次
-
-     # 再粗暴点，直接:
-     cron "* */60 * * * *" script-path=xxx.js # 每60分执行一次
-     ```
-
-   - `QuanX`配置:
-
-     ```properties
-     [task_local]
-     1 0 * * * xxx.js # 每天00:01执行一次
-     2 0 * * * xxx.js # 每天00:02执行一次
-     3 0 * * * xxx.js # 每天00:03执行一次
-
-     */60 * * * * xxx.js # 每60分执行一次
-     ```
-
 
