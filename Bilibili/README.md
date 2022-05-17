@@ -21,19 +21,6 @@ https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bilibili.conf
 
 > 2020.3.16 添加银瓜子转硬币脚本 感谢[@lcandy2](https://github.com/lcandy2) PR
 
-#### 其他Bilibili配置 (Surge)
-
-```properties
-[MITM]
-*.bilibili.com
-
-[Script]
-http-request ^https:\/\/(www|live)\.bilibili\.com\/?.? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js
-# 如需银瓜子转硬币，添加以下内容 
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js
-```
-
 #### 其他Bilibili配置 (QuanX)
 
 ```properties
