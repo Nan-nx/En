@@ -1,5 +1,15 @@
 ## <a href="https://t.me/Nan_nx"><img src="https://raw.githubusercontent.com/Nan-nx/Nan-nx/main/hello.gif" width="65px"/></a>
 
+
+#######################################################################################################
+
+
+### 配置引用
+https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bilibili.conf
+
+
+#######################################################################################################
+
 <a href="https://github.com/Nan-nx/En"><img src='https://img.shields.io/badge/Quan_X-v2.0-brown'/></a> 
 <a href="https://github.com/Nan-nx/Scriptable"><img src='https://img.shields.io/badge/Scriptable-v1.0-orange'/></a>
 <a href="https://github.com/Nan-nx/Book"><img src='https://img.shields.io/badge/Book-v3.0-red'/></a> 
@@ -13,14 +23,9 @@
 [![Commit](https://img.shields.io/github/commit-activity/m/Nan-nx/En?label=commits)](https://github.com/Nan-nx/En/commits/master)
 [![Stars](https://img.shields.io/github/stars/Nan-nx/En)](https://github.com/Nan-nx/En/stargazers)
 ![](https://visitor-badge.glitch.me/badge?page_id=Nan-nx)
-#########################################################################################
 
 
-### Bilibili 部分vip功能（20220508更新）
-
-> 脚本详见https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bibilivip.js
-> 
-#### Bilibili
+#### 关于[![Bibilivip.js](https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bibilivip.js)
 
 > 代码已同时兼容 Surge & QuanX, 使用同一份签到脚本即可
 
@@ -30,7 +35,7 @@
 
 > 2020.3.16 添加银瓜子转硬币脚本 感谢[@lcandy2](https://github.com/lcandy2) PR
 
-#### 配置 (Surge)
+#### 其他Bilibili配置 (Surge)
 
 ```properties
 [MITM]
@@ -43,7 +48,7 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js
 ```
 
-#### 配置 (QuanX)
+#### 其他Bilibili配置 (QuanX)
 
 ```properties
 [MITM]
