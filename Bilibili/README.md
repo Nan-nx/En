@@ -1,9 +1,5 @@
 ## <a href="https://t.me/Nan_nx"><img src="https://raw.githubusercontent.com/Nan-nx/Nan-nx/main/hello.gif" width="65px"/></a>
 
-
-#######################################################################################################
-
-
 ### 配置引用
 https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bilibili.conf
 
@@ -25,7 +21,7 @@ https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bilibili.conf
 ![](https://visitor-badge.glitch.me/badge?page_id=Nan-nx)
 
 
-#### 关于[![Bibilivip.js](https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bibilivip.js)
+#### 关于[Bibilivip.js](https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bibilivip.js)
 
 > 代码已同时兼容 Surge & QuanX, 使用同一份签到脚本即可
 
