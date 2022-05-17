@@ -1,6 +1,6 @@
 ## <a href="https://t.me/Nan_nx"><img src="https://raw.githubusercontent.com/Nan-nx/Nan-nx/main/hello.gif" width="65px"/></a>
 
-#### [Cherish](https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo.conf)
+#### [Cherish配置](https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo.conf)
 
 <a href="https://github.com/Nan-nx/En"><img src='https://img.shields.io/badge/Quan_X-v2.0-brown'/></a> 
 <a href="https://github.com/Nan-nx/Scriptable"><img src='https://img.shields.io/badge/Scriptable-v1.0-orange'/></a>
@@ -40,7 +40,7 @@
 - 【待定】自定义开屏图片/视频。如有需求，可以考虑开发
 - 删除个人页【让红包飞】模块
 - 【03.12更新】新增屏蔽用户功能，如果有不得已需要关注的人（比如某些抽奖关注），但是又不想看TA的内容可以使用此配置。
-## weibo_config.js
+#### weibo_config.js
 > 微博自定义配置
 - weibo_main.js文件中含有大量配置用于控制脚本的实际运行结果，如是否移除顶部直播或评论区相关内容等。如果不需要有自己的配置，可忽略此部分说明。
 - 如果设置过自定义配置，对后续新增加的功能，如果不生效需要重新设置一次自定义配置。
@@ -73,7 +73,7 @@
 - customize.js中的功能
 #### weibo_main.py
 > Python 脚本，功能同weibo_main.js + weibo_launch.js，可用mitmproxy部署
-### Quan-X 配置教程
+#### Quan-X 配置教程
 1. 下载Quan-X App
 2. 点击首页右下角风车按钮 -> MitM -> 生成证书
 3. iPhone设置页 -> 通用 -> VPN与设备管理，找到Quantumult X开头的证书文件进行安装
@@ -84,7 +84,7 @@
 8. 回到App首页顶部开启App运行即可
 
 
-### Quan-X 文本模式配置
+#### Quan-X 文本模式配置
 ```properties
 [rewrite_local]
 ### 微博去广告以及去除各部分推广模块
@@ -94,7 +94,7 @@
 [mitm]
 hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
 ```
-### Surge 配置教程
+#### Surge 配置教程
 > 目前有bug，待修复
 1. 下载Surge App
 2. 首页 -> MitM -> 配置根证书 -> 生成新的CA证书 -> 安装证书
@@ -106,7 +106,7 @@ hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
 8. 安装模块后，进入首页左上角（Default）的外部资源中可以看到两个js文件
 9. 回到App顶部开启App运行即可
 10. [tip] 由于脚本不定期更新，安装的模块和外部资源需要左滑手动更新（暂未找到定时更新功能）
-### Surge 文本模式配置
+#### Surge 文本模式配置
 > 目前有bug，待修复
 ```properties
 [Script]
@@ -116,10 +116,10 @@ http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/w
 hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
 ```
 
-### 免责声明
+#### 免责声明
 - 此脚本仅用于学习研究，不保证其合法性、准确性、有效性，请根据情况自行判断，本人对此不承担任何保证责任。
 - 请勿将此脚本用于任何商业或非法目的，若违反规定请自行对此负责。
-### 感谢
+#### 感谢
 - [@甄星cherish](https://weibo.com/zmqcherish)
 - [fastgit](https://doc.fastgit.org/)
 - [@NobyDa](https://github.com/NobyDa)
