@@ -22,7 +22,7 @@
 #### 自用机场：
 * https://xn--4gq62f52gdss.com/#/register?code=UfMGCIdM
 * https://b.luxury/waf/jCVu3VGrFlVgAcjk2
-## <a href="https://b.luxury/waf/jCVu3VGrFlVgAcjk2"><img src="https://raw.githubusercontent.com/Nan-nx/Nan-nx/main/proxy.png" width="500px"/></a>
+;<a href="https://b.luxury/waf/jCVu3VGrFlVgAcjk2"><img src="https://raw.githubusercontent.com/Nan-nx/Nan-nx/main/proxy.png" width="500px"/></a>
 
 
 
