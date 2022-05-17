@@ -1,7 +1,6 @@
 ## <a href="https://t.me/Nan_nx"><img src="https://raw.githubusercontent.com/Nan-nx/Nan-nx/main/hello.gif" width="65px"/></a>
 
-### 配置引用
-https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bilibili.conf
+### [配置引用](https://raw.githubusercontent.com/Nan-nx/En/master/Bilibili/Bilibili.conf)
 
 <a href="https://github.com/Nan-nx/En"><img src='https://img.shields.io/badge/Quan_X-v2.0-brown'/></a> 
 <a href="https://github.com/Nan-nx/Scriptable"><img src='https://img.shields.io/badge/Scriptable-v1.0-orange'/></a>
