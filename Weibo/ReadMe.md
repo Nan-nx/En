@@ -1,16 +1,18 @@
-### 专注于微博资源：[Cherish](https://github.com/zmqcherish/proxy-script) 最新版 v0412.1 
+## <a href="https://t.me/Nan_nx"><img src="https://raw.githubusercontent.com/Nan-nx/Nan-nx/main/hello.gif" width="65px"/></a>
+
+#### [Cherish](https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo.conf)
+
+<a href="https://github.com/Nan-nx/En"><img src='https://img.shields.io/badge/Quan_X-v2.0-brown'/></a> 
+<a href="https://github.com/Nan-nx/Scriptable"><img src='https://img.shields.io/badge/Scriptable-v1.0-orange'/></a>
+<a href="https://github.com/Nan-nx/Book"><img src='https://img.shields.io/badge/Book-v3.0-red'/></a> 
+[![GitHub license](https://img.shields.io/github/license/Nan-nx/En.svg)](https://github.com/Nan-nx/En/blob/master/LICENSE) 
+<a href="https://t.me/Nan_nx"><img src='https://img.shields.io/badge/By-Nan--nx-green'/></a>
+
+
+#### 专注于微博资源：[Cherish](https://github.com/zmqcherish/proxy-script) 最新版 v0510.1
 - 因Quan-X不会自动更新脚本，根据你本地脚本第一行的version查看是否运行的是最新版
 - 本项目不定期更新，如运行效果与预期不符，请确保脚本已更新到最新版。不排除脚本bug或第三方应用更新后与原有规则不匹配等可能
 
-### 说明
-- 本项目用于自定义配置iOS系统上的App，主要针对微博去广告及其他自定义，和其他一些软件
-- 使用前提：需到非大陆区AppStore下载Quantumult X / Surge
-- Quan-X / Surge App本身付费，可自行网上找外区Apple ID免费下载，也可找各渠道付费购买
-- 本项目不提供下载账号。share一个网上的[链接](https://id1314.com/?p=45)，不保证可用
-- Quan-X [不完全教程](https://www.notion.so/Quantumult-X-1d32ddc6e61c4892ad2ec5ea47f00917)
-- 文件加速：如果你没有梯子，获取GitHub文件可能会因为网络问题失败。借助[fastgit](https://doc.fastgit.org/)可以为GitHub加速。教程中所有使用 https://raw.githubusercontent.com/ 处都可以使用 https://raw.fastgit.org/ 进行替换。
-
-### 文件功能说明
 #### weibo_main.js & weibo_launch.js
 > 可屏蔽微博app多数广告以及各部分推广模块
 - 删除首页(tab1)流和超话中的广告、热推
