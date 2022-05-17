@@ -12,6 +12,6 @@
 #### [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss)
 #### [codingbox/Free-Node-Merge](https://github.com/codingbox/Free-Node-Merge)
 
-#### 部分资源解析，由于编码方式不同，解析可能需要用到资源解析器[KOP-XIAO](resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js) 。
+#### 部分资源解析，由于编码方式不同，解析可能需要用到资源解析器-[KOP-XIAO](resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js)
 
 
