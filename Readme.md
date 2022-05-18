@@ -13,8 +13,8 @@
 <a href="https://t.me/Nan_nx"><img src='https://img.shields.io/badge/By-Nan--nx-green'/></a>
 
 #### 自用机场：
-* https://b.luxury/waf/jCVu3VGrFlVgAcjk2
-* https://xn--4gq62f52gdss.com/#/register?code=UfMGCIdM
+* 几鸡：[点我](https://b.luxury/waf/jCVu3VGrFlVgAcjk2)
+* 一元机场：[点我](https://xn--4gq62f52gdss.com/#/register?code=UfMGCIdM)
 
 #### 自用配置：
 * 自用配置：[Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗❗
