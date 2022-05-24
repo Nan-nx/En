@@ -13,14 +13,14 @@
 <a href="https://t.me/Nan_nx"><img src='https://img.shields.io/badge/By-Nan--nx-green'/></a>
 
 #### 自用机场：
-* 几鸡：[点我](https://b.luxury/waf/jCVu3VGrFlVgAcjk2)
+* 几鸡机场：[点我](https://b.luxury/waf/jCVu3VGrFlVgAcjk2)
 * 一元机场：[点我](https://xn--4gq62f52gdss.com/#/register?code=UfMGCIdM)
 
 #### 自用配置：
-* 自用配置：[Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗❗
-* 直接引用会覆盖原有配置，建议打开后直接复制相应字段使用 ❗❗
-* 基本功能：支持B站大会员高帧，百度云会员高清观看倍速，酷我VIP资源，淘宝/京东比价，微博微信去广告等等。
-* 可借助fastgit为GitHub加速：```https://raw.githubusercontent.com/``` 替换为 ```https://raw.fastgit.org/```
+* 自用配置：[Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗
+* 直接引用会覆盖原有配置，建议打开后直接复制相应字段使用 ❗
+* 支持B站大会员高帧，百度云会员高清观看倍速，酷我VIP资源，淘宝/京东比价，微博微信去广告等等。
+* 可借助fastgit加速：```https://raw.githubusercontent.com/``` 替换为 ```https://raw.fastgit.org/```
 
 #### 特别感谢：
 *  图标资源库：[Qure](https://github.com/Koolson/Qure)
