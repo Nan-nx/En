@@ -1,6 +1,4 @@
 
-[![Nan-nx's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nan-nx&show_icons=true&count_private=true&theme=vue)](https://github.com/Nan-nx)
-
 * 资源解析器：[KOP-XIAO](https://github.com/KOP-XIAO) 
 * Boxjs、各种签到脚本：[Chavyleung](https://github.com/chavyleung)
 * 各种资源整合、实用脚本等：[Cuttlefish](https://github.com/ddgksf2013/Cuttlefish)
@@ -10,6 +8,8 @@
 <a href="https://github.com/Nan-nx/Scriptable"><img src='https://img.shields.io/badge/Scriptable-v1.0-orange'/></a>
 <a href="https://github.com/Nan-nx/Book"><img src='https://img.shields.io/badge/Book-v3.0-red'/></a> 
 <a href="https://t.me/Nan_nx"><img src='https://img.shields.io/badge/By-Nan--nx-green'/></a>
+
+[![Nan-nx's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nan-nx&show_icons=true&count_private=true&theme=vue)](https://github.com/Nan-nx)
 
 #### 自用机场：
 * 几鸡机场：[点我](https://b.luxury/waf/jCVu3VGrFlVgAcjk2)
