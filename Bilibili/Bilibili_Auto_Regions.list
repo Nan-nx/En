@@ -1,5 +1,6 @@
 # > bilibili
 DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
 DOMAIN-KEYWORD,cn-hk-eq-bcache-
