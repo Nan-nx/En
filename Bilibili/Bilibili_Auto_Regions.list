@@ -6,6 +6,7 @@ DOMAIN,upos-hz-mirrorakam.akamaized.net
 DOMAIN-KEYWORD,cn-hk-eq-bcache-
 # > bilibili
 DOMAIN,api.biliapi.com
+DOMAIN,dataflow.biliapi.com
 DOMAIN,api.biliapi.net
 DOMAIN,api.bilibili.com
 DOMAIN,app.biliapi.com
