@@ -1,14 +1,4 @@
 
-| 类别 | 配置 |
-| :------------: | :------------: |
-| 出国版 | [Outbound](https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Outbound.conf) |
-| 回国版 | [Inbound](https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Inbound.conf) |
-
-* 得益于「资源解析器」的特性，你可以使用 Surge 的 Ruleset、Doaminset 和 Module。
-* 配置来源 [DivineEngine](https://raw.githubusercontent.com/DivineEngine/Profiles)
-
-
-
 #### 关于 IPv6
 
 默认并不开启 IPv6，如需要可在文本配置中在 `no-ipv6` 之前加上英文分号。
