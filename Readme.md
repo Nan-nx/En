@@ -8,7 +8,7 @@
 
 * 资源解析器：[KOP-XIAO](https://github.com/KOP-XIAO) 
 * Boxjs、各种签到脚本：[Chavyleung](https://github.com/chavyleung)
-* 各种资源整合、实用脚本等：[Cuttlefish](https://github.com/ddgksf2013/Cuttlefish)
+* 各种资源整合、实用脚本等：[Cuttlefish](https://github.com/ddgksf2013)
 * 资源广泛，去广告、破解VIP资源：[NobyDa](https://github.com/NobyDa/Script)
 
 #### 自用机场：
@@ -32,19 +32,7 @@
 *  部分去广告资源：[Blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) 
 *  各种分流策略、规则等：[DivineEngine](https://github.com/DivineEngine)
 *  专注于搜索跳转，引擎转化：[zZPiglet](https://github.com/zZPiglet/Task/tree/master)
-*  资源解析器：[@Shawn](https://github.com/KOP-XIAO)
-  * [@chavyleung](https://github.com/chavyleung)
-  * [@NobyDa](https://github.com/NobyDa)
-  * [@yichahucha](https://github.com/yichahucha)
-  * [@Peng-YM](https://github.com/Peng-YM)
-  * [@MuTu](https://github.com/githubdulong)
-  * [@fengchang](https://github.com/fengchang)
-  * [@Loon0x00](https://github.com/Loon0x00)
-  * [@Tartarus2014](https://github.com/Tartarus2014)
-  * [@Hackl0us](https://github.com/Hackl0us)
-  * [@Koolson](https://github.com/Koolson)
-  * [@LucaLin](https://github.com/LucaLin233)
-  *
+*  其他 [@Peng-YM](https://github.com/Peng-YM) @MuTu](https://github.com/githubdulong) [@fengchang](https://github.com/fengchang) [@Loon0x00](https://github.com/Loon0x00) [@Tartarus2014](https://github.com/Tartarus2014)[@Hackl0us](https://github.com/Hackl0us) [@Koolson](https://github.com/Koolson) [@LucaLin](https://github.com/LucaLin233)
 
 [![Build Status](https://github.com/Nan-nx/En/actions/workflows/build.yml/badge.svg)](https://github.com/Nan-nx/En/actions)
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/Nan-nx/En.svg)](https://github.com/Nan-nx/En/tags)
