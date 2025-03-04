@@ -18,7 +18,7 @@
 
 #### 自用配置：
 * 自用QX配置：[Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗
-* 自用LOON配置：[Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Loon.conf) ❗
+* 自用LOON配置：[Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/refs/heads/master/Loon.conf) ❗
 * 直接引用会覆盖原有配置，建议打开后直接复制相应字段使用；
 * 可借助fastgit加速：```https://raw.githubusercontent.com/``` 替换为 ```https://raw.fastgit.org/```；
 * 支持B站功能，百度云高清倍速观看，酷我VIP，网易蜗牛VIP，淘宝/京东比价，微博、微信、知乎、什么值得买去广告等。
