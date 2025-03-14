@@ -7,8 +7,7 @@
 
 [![Nan-nx's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nan-nx&show_icons=true&count_private=true&theme=vue)](https://github.com/Nan-nx)
 
-* 可莉资源：[luestr]
-(https://github.com/luestr/ProxyResource/blob/main/README.md)
+* 可莉资源：[luestr](https://github.com/luestr/ProxyResource/blob/main/README.md)
 
 * 资源解析器：[KOP-XIAO](https://github.com/KOP-XIAO) 
 * Boxjs、各种签到脚本：[Chavyleung](https://github.com/chavyleung)
