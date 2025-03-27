@@ -18,6 +18,9 @@
 * 几鸡机场：[点我](https://b.luxury/waf/jCVu3VGrFlVgAcjk2)
 * 一元机场：[点我](https://xn--4gq62f52gdss.com/#/register?code=UfMGCIdM)
 
+* Mitce机场：[点我]([https://xn--4gq62f52gdss.com/#/register?code=UfMGCIdM](https://mitce.com/aff.php?aff=15567
+)
+
 #### 自用配置：
 * 自用QX配置：[Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗
 * 自用LOON配置：[Loon.conf](https://raw.githubusercontent.com/Nan-nx/En/refs/heads/master/Loon.conf) ❗
