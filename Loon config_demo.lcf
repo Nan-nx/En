@@ -1,0 +1,191 @@
+# Loon 进阶配置
+# 更多的插件可以前往此处安装 https://github.com/luestr/ProxyResource/blob/main/README.md
+
+[General]
+mitm-on-wifi-access = false
+ip-mode = v4-only
+dns-server = system
+sni-sniffing = false
+disable-stun = true
+dns-reject-mode = LoopbackIP
+domain-reject-mode = DNS
+udp-fallback-mode = REJECT
+wifi-access-http-port = 7222
+wifi-access-socks5-port = 7221
+allow-wifi-access = false
+interface-mode = auto
+test-timeout = 2
+disconnect-on-policy-change = true
+switch-node-after-failure-times = 3
+internet-test-url = http://connectivitycheck.platform.hicloud.com/generate_204
+proxy-test-url = http://www.gstatic.com/generate_204
+resource-parser = https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-parser.loon.min.js
+geoip-url = https://geodata.kelee.one/Country-Masaiki.mmdb
+ipasn-url = https://geodata.kelee.one/GeoLite2-ASN-P3TERX.mmdb
+skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
+bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+
+[Proxy]
+
+[Remote Proxy]
+
+
+
+[Remote Filter]
+Hongkong = NameRegex, FilterKey = "^(?=.*((?i)🇭🇰|香港|(\b(HK|Hong)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+Taiwan = NameRegex, FilterKey = "^(?=.*((?i)🇹🇼|台湾|(\b(TW|Tai|Taiwan)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+Japan = NameRegex, FilterKey = "^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|Japan)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+Korea = NameRegex, FilterKey = "^(?=.*((?i)🇰🇷|韩国|韓|首尔|(\b(KR|Korea)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+Singapore = NameRegex, FilterKey = "^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+America = NameRegex, FilterKey = "^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|United States)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+Game = NameRegex, FilterKey = "^(?=.*((?i)游戏|🎮|(\b(GAME)(\d+)?\b)))(?!.*((?i)回国|校园)).*$"
+Global = NameRegex, FilterKey = "^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|(\b(USE|USED|TOTAL|EXPIRE|EMAIL|Panel)\b|(\d{4}-\d{2}-\d{2}|\dG)))).*$"
+
+[Proxy Group]
+Manual = select,Global,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/Static.png
+# --------------------------------
+# 场景策略
+GLO A = ssid,default=GLO,cellular=GLO,"406办公室"=DIRECT,"408办公室"=DIRECT,"MERCURY"=DIRECT,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/Global.png
+HK A = ssid,default=HK,cellular=HK,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/HK.png
+TW A = ssid,default=TW,cellular=TW,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/TW.png
+JP A = ssid,default=JP,cellular=JP,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/JP.png
+KR A = ssid,default=KR,cellular=KR,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/KR.png
+SG A = ssid,default=SG,cellular=SG,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/SG.png
+US A = ssid,default=US,cellular=US,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/US.png
+# --------------------------------
+# 地区策略
+GLO = select,GLO url-test,GLO fallback,GLO load-balance,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/Global.png
+HK = select,HK url-test,HK fallback,HK load-balance,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/HK.png
+TW = select,TW url-test,TW fallback,TW load-balance,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/TW.png
+JP = select,JP url-test,JP fallback,JP load-balance,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/JP.png
+KR = select,KR url-test,KR fallback,KR load-balance,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/KR.png
+SG = select,SG url-test,SG fallback,SG load-balance,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/SG.png
+US = select,US url-test,US fallback,US load-balance,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/US.png
+
+# --------------------------------
+# 自动策略
+GLO url-test = url-test,Global,interval = 200,tolerance = 100,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/Global.png
+HK url-test = url-test,Hongkong,interval = 200,tolerance = 100,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/HK.png
+TW url-test = url-test,Taiwan,interval = 200,tolerance = 100,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/TW.png
+JP url-test = url-test,Japan,interval = 200,tolerance = 100,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/JP.png
+KR url-test = url-test,Korea,interval = 200,tolerance = 100,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/KR.png
+SG url-test = url-test,Singapore,interval = 200,tolerance = 100,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/SG.png
+US url-test = url-test,America,interval = 200,tolerance = 100,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/US.png
+
+GLO fallback = fallback,Global,interval = 150,max-timeout = 2000,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/Global.png
+HK fallback = fallback,Hongkong,interval = 150,max-timeout = 2000,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/HK.png
+TW fallback = fallback,Taiwan,interval = 150,max-timeout = 2000,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/TW.png
+JP fallback = fallback,Japan,interval = 150,max-timeout = 2000,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/JP.png
+KR fallback = fallback,Korea,interval = 150,max-timeout = 2000,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/KR.png
+SG fallback = fallback,Singapore,interval = 150,max-timeout = 2000,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/SG.png
+US fallback = fallback,America,interval = 150,max-timeout = 2000,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/US.png
+
+GLO load-balance = load-balance,Global,interval = 60,max-timeout = 2000,algorithm = pcc,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/Global.png
+HK load-balance = load-balance,Hongkong,interval = 60,max-timeout = 2000,algorithm = pcc,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/HK.png
+TW load-balance = load-balance,Taiwan,interval = 60,max-timeout = 2000,algorithm = pcc,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/TW.png
+JP load-balance = load-balance,Japan,interval = 60,max-timeout = 2000,algorithm = pcc,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/JP.png
+KR load-balance = load-balance,Korea,interval = 60,max-timeout = 2000,algorithm = pcc,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/KR.png
+SG load-balance = load-balance,Singapore,interval = 60,max-timeout = 2000,algorithm = pcc,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/SG.png
+US load-balance = load-balance,America,interval = 60,max-timeout = 2000,algorithm = pcc,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/US.png
+
+# --------------------------------
+# 兜底策略后备
+Final = select,GLO url-test,GLO fallback,GLO load-balance,DIRECT,img-url = https://raw.githubusercontent.com/Nan-nx/En/master/IconSet/Final.png
+ 
+[Rule]
+DOMAIN,www.p4vasp.at,GLO A
+DOMAIN,boxjs.com,GLO A
+DOMAIN,103.186.186.186,DIRECT
+# Local Rule
+# Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,IP-CIDR6,IP-ASN
+# Strategy:DIRECT,Proxy,REJECT
+# Options:no-resolve(no-resolve(only for cidr))
+IP-CIDR,127.0.0.0/8,DIRECT
+
+# 请勿修改远程CN REGION规则的排序甚至删除
+IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+IP-CIDR,192.0.0.0/24,DIRECT,no-resolve
+IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+IP-CIDR,198.18.0.0/15,DIRECT,no-resolve
+IP-CIDR6,::1/128,DIRECT,no-resolve
+IP-CIDR6,fc00::/7,DIRECT,no-resolve
+IP-CIDR6,fe80::/10,DIRECT,no-resolve
+
+IP-CIDR,28.0.0.1/8,DIRECT
+IP-CIDR,198.18.0.1/16,DIRECT
+IP-CIDR6,fc00::/18,DIRECT
+#GEOIP,cn,DIRECT
+FINAL,GLO A
+
+
+[Remote Rule]
+https://adrules.top/adrules.list, policy=REJECT-DROP, tag=adrules.list, enabled=false
+https://raw.githubusercontent.com/Nan-nx/En/refs/heads/master/Profile/Quantumult/Filter/Guard/Hijacking.list, policy=REJECT-DROP, tag=Hijacking.list, enabled=false
+https://rule.kelee.one/Loon/Telegram.lsr, policy=GLO A, tag=Telegram, enabled=true
+https://rule.kelee.one/Loon/TikTok.lsr, policy=JP A, tag=TikTok, enabled=true
+https://rule.kelee.one/Loon/AppleID.lsr, policy=DIRECT, tag=Apple Account, enabled=true
+https://rule.kelee.one/Loon/AppStore.lsr, policy=DIRECT, tag=App Store, enabled=true
+https://rule.kelee.one/Loon/GitHub.lsr, policy=GLO A, tag=GitHub, enabled=true
+https://rule.kelee.one/Loon/Netflix.lsr, policy=HK A, tag=Netflix, enabled=true
+https://rule.kelee.one/Loon/YouTube.lsr, policy=GLO A, tag=Youtube, enabled=true
+https://rule.kelee.one/Loon/Disney.lsr, policy=HK A, tag=Disney, enabled=true
+https://rule.kelee.one/Loon/Twitter.lsr, policy=GLO A, tag=Twitter, enabled=true
+https://rule.kelee.one/Loon/Facebook.lsr, policy=GLO A, tag=Facebook, enabled=true
+https://rule.kelee.one/Loon/Instagram.lsr, policy=GLO A, tag=Instagram, enabled=true
+https://rule.kelee.one/Loon/Spotify.lsr, policy=GLO A, tag=Spotify, enabled=true
+https://rule.kelee.one/Loon/Google.lsr, policy=GLO A, tag=Google, enabled=true
+https://rule.kelee.one/Loon/OneDrive.lsr, policy=DIRECT, tag=OneDrive, enabled=true
+https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER, policy=DIRECT, tag=LAN, enabled=true
+https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER, policy=DIRECT, tag=CN REGION, enabled=true
+
+[Host]
+ssid:Coffe = server:192.168.100.1
+
+[Rewrite]
+
+[Script]
+
+[Plugin]
+https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx, tag=HTTPDNS拦截器, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Auto_Join_TF.lpx, enabled=false
+https://kelee.one/Tool/Loon/Lpx/Weibo_intl_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/NeteaseCloudMusic_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/JD_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/JD_Price.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Cainiao_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Switch_github_mirror.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/AppleWeatherEnhancer.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/12306_remove_ads.lpx, enabled=true
+https://raw.githubusercontent.com/deezertidal/private/master/plugallery/aliyun.plugin, enabled=false
+https://raw.githubusercontent.com/ClydeTime/BiliBili/master/modules/BiliBiliDailyBonus.plugin, enabled=false
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/DaysMatter.plugin, enabled=true
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/wnCalendar.plugin, enabled=true
+https://kelee.one/Tool/Loon/Lpx/VVebo_repair.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx, policy=GLO A, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Spotify_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Spotify_lyrics_translation.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/YouTube_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/LoonGallery.lpx, policy=GLO A, enabled=true
+https://raw.githubusercontent.com/deezertidal/private/master/plugallery/wechatad.plugin, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Google.lpx, enabled=true
+https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/Netflix.beta.plugin, enabled=true
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/Qsearch.plugin, enabled=true
+https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.tf.plugin, policy=GLO A, enabled=false
+https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.plugin, policy=GLO A, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx, policy=GLO A, enabled=true
+
+[Mitm]
+ca-p12 = 
+ca-passphrase = 
+hostname =
+ca-p12=
+ca-passphrase=
+skip-server-cert-verify = false
