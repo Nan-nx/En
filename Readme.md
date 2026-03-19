@@ -13,7 +13,7 @@
 * 资源广泛，去广告、破解VIP资源：[NobyDa](https://github.com/NobyDa/Script)
 
 
-#### config配置：
+#### Config配置：
 * 自用LOON配置：[Loon.conf](https://raw.githubusercontent.com/Nan-nx/En/refs/heads/master/Loon.conf) ❗
 * 直接引用会覆盖原有配置，建议打开后直接复制相应字段使用；
 * 可借助fastgit加速：```https://raw.githubusercontent.com/``` 替换为 ```https://raw.fastgit.org/```；
