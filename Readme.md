@@ -14,9 +14,8 @@
 * 各种资源整合、实用脚本等：[Cuttlefish](https://github.com/ddgksf2013)
 * 资源广泛，去广告、破解VIP资源：[NobyDa](https://github.com/NobyDa/Script)
 
-#### 自用机场：
-* 几鸡机场：[点我](https://b.luxury/waf/jCVu3VGrFlVgAcjk2)
-* Mitce机场：[点我](https://mitce.com/aff.php?aff=15567)
+#### 自用：
+* ChinaG：[点我](https://b.luxury/waf/jCVu3VGrFlVgAcjk2)
 
 #### 自用配置：
 * 自用QX配置：[Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗
