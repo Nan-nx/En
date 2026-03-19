@@ -12,11 +12,8 @@
 * 各种资源整合、实用脚本等：[Cuttlefish](https://github.com/ddgksf2013)
 * 资源广泛，去广告、破解VIP资源：[NobyDa](https://github.com/NobyDa/Script)
 
-#### 自用：
-* ChinaG：[点我](https://b.luxury/waf/jCVu3VGrFlVgAcjk2)
 
-#### 自用配置：
-* 自用QX配置：[Nan-nx.conf](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf) ❗
+#### config配置：
 * 自用LOON配置：[Loon.conf](https://raw.githubusercontent.com/Nan-nx/En/refs/heads/master/Loon.conf) ❗
 * 直接引用会覆盖原有配置，建议打开后直接复制相应字段使用；
 * 可借助fastgit加速：```https://raw.githubusercontent.com/``` 替换为 ```https://raw.fastgit.org/```；
