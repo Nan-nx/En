@@ -22,7 +22,3 @@
 [其他-小猫咪-1](https://raw.githubusercontent.com/LovedGM/Quantumult-X-TuBiao/d9790e7036861013a4c8fd51990888b1674b9ee1/maomi.json)
 
 [其他-小猫咪-2](https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/Catcat.json)
-
-[姿势图标-1](https://github.com/LovedGM/Quantumult-X-TuBiao/raw/main/zishi.json)
-
-[姿势图标-2](https://raw.githubusercontent.com/LovedGM/Quantumult-X-TuBiao/main/zishi-cs.json)
