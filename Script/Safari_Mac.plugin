@@ -65,4 +65,5 @@
 # bd(baidu)
 ^https:\/\/www\.google\.com\/search\?q=bd\+([^&]+) https://www.baidu.com/s?ie=utf-8&wd=$1 302
 
+[MITM]
 hostname = www.baidu.com,www.google.com
