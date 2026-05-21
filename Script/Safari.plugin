@@ -1,5 +1,5 @@
 #!name=Safari search
-#!desc=默认百度引擎即可，地址栏输入:gg 充电宝 ,即可切换为谷歌搜索
+#!desc=百度引擎，地址栏输入:gg 充电宝 ,即可切换为谷歌搜索
 #!openUrl=
 #!author=zqzess
 #!homepage=https://github.com/zqzess/rule_for_quantumultX
