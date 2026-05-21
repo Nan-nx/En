@@ -11,12 +11,6 @@
 * 资源广泛，去广告、破解VIP资源：[NobyDa](https://github.com/NobyDa/Script)
 
 
-#### Config配置：
-* 自用LOON配置：[Loon.conf](https://raw.githubusercontent.com/Nan-nx/En/refs/heads/master/Loon.conf) ❗
-* 直接引用会覆盖原有配置，建议打开后直接复制相应字段使用；
-* 可借助fastgit加速：```https://raw.githubusercontent.com/``` 替换为 ```https://raw.fastgit.org/```；
-* 支持B站功能，百度云高清倍速观看，酷我VIP，网易蜗牛VIP，淘宝/京东比价，微博、微信、知乎、什么值得买去广告等。
-
 #### 特别感谢：
 *  图标资源库：[Qure](https://github.com/Koolson/Qure)
 *  部分VIP资源：[Yichahucha](https://github.com/yichahucha) 
