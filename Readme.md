@@ -10,6 +10,7 @@
 [![Commit](https://img.shields.io/github/commit-activity/m/Nan-nx/En?label=commits)](https://github.com/Nan-nx/En/commits/master)
 [![GitHub license](https://img.shields.io/github/license/Nan-nx/En.svg)](https://github.com/Nan-nx/En/blob/master/License)
 
+#### 主要内容：
 * 可莉资源：[luestr](https://github.com/luestr/ProxyResource/blob/main/README.md)
 
 * 资源解析器：[KOP-XIAO](https://github.com/KOP-XIAO) 
