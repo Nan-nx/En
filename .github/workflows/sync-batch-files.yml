@@ -1,4 +1,4 @@
-name: 批量同步多文件（分文件夹）
+name: update from others
 
 on:
   schedule:
@@ -26,6 +26,9 @@ jobs:
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Spotify/Spotify.list  Profile/Spotify.list"
             "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list   Profile/ProxyASN.China.list"
             "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Proxy.list    Profile/Proxy.list"
+            "https://ddgksf2013.top/filter/Ai.yaml    Profile/Ai.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/QuantumultX/Advertising/Advertising.list    Profile/Advertising.list"
+            
     
           )
 
@@ -46,7 +49,7 @@ jobs:
             fi
           done
 
-      - name: 提交更新到仓库
+      - name: update from others
         uses: EndBug/add-and-commit@v9
         with:
           message: "auto: 批量同步多个文件"
