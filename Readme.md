@@ -6,7 +6,7 @@
 
 
 #### 主要内容：
-* 可莉资源：[luestr](https://github.com/luestr/ProxyResource/blob/main/README.md)
+* 可莉资源：[Luestr](https://github.com/luestr/ProxyResource/blob/main/README.md)
 
 * 资源解析器：[KOP-XIAO](https://github.com/KOP-XIAO) 
 * Boxjs、各种签到脚本：[Chavyleung](https://github.com/chavyleung)
