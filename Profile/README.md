@@ -1,6 +1,6 @@
 ## <a href="https://t.me/Nan_nx"><img src="https://raw.githubusercontent.com/Nan-nx/Nan-nx/main/hello.gif" width="65px"/></a>
 
-#### [Nan-nx配置](https://raw.githubusercontent.com/Nan-nx/En/master/Nan-nx.conf)
+#### [En](https://raw.githubusercontent.com/Nan-nx/En)
 
 
 
