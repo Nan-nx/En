@@ -30,10 +30,12 @@ jobs:
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/QuantumultX/Advertising/Advertising.list    Profile/Advertising.list"
             "https:/raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u    Profile/iptv.m3u"
             "https:/raw.githubusercontent.com/Kimentanm/aptv/master/m3u/radio.m3u    Profile/radio.m3u"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Weibo/Weibo.list    Profile/Weibo.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Google/Google.list    Profile/Google.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Twitter/Twitter.list    Profile/Twitter.list"
             
-    
+   
           )
-
           # 循环自动同步
           for line in "${FILE_LIST[@]}"; do
             SRC=$(echo "$line" | awk '{print $1}')
