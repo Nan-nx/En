@@ -34,6 +34,7 @@ jobs:
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Google/Google.list    Profile/Google.list"
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Twitter/Twitter.list    Profile/Twitter.list"
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/YouTube/YouTube.list    Profile/YouTube.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BiliBili/BiliBili.list    Profile/BiliBili.list"
             "https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.conf    Script/Spotify.conf"
             "https://ddgksf2013.top/Profile/QuantumultX.conf    Script/QuantumultX.conf"
             "https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin    Script/Spotify.plugin"
