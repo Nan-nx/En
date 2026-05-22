@@ -1,4 +1,4 @@
-name: 同步单个文件
+name: update resource-parser form KOP-XIAO
 
 on:
   schedule:
