@@ -30,6 +30,6 @@ jobs:
       - name: 提交并推送更新
         uses: EndBug/add-and-commit@v9
         with:
-          message: "自动同步文件: ${{ env.FILE_PATH }}"
+          message: "自动同步文件:resource-parser.js ${{ env.FILE_PATH }}"
           committer_name: GitHub Actions
           committer_email: actions@github.com
