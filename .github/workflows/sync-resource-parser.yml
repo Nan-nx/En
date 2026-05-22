@@ -8,6 +8,8 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    env:
+     FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # 强制使用 Node24，消除警告
     steps:
       - name: 拉取仓库
         uses: actions/checkout@v4
