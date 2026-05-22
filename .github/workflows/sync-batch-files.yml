@@ -52,6 +52,6 @@ jobs:
       - name: update from others
         uses: EndBug/add-and-commit@v9
         with:
-          message: "auto: 批量同步多个文件"
+          message: "auto: update from others"
           committer_name: GitHub Actions
           committer_email: actions@github.com
