@@ -1,0 +1,39 @@
+name: 同步 Country.mmdb
+
+on:
+  schedule:
+    - cron: '0 */22 * * *'  # 每22小时自动同步
+  workflow_dispatch:       # 可手动运行
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取仓库
+        uses: actions/checkout@v4
+
+      - name: 下载并保存到 Profile/Country.mmdb
+        run: |
+          # 源文件地址
+          URL="https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
+
+          # 你要保存的路径
+          SAVE_PATH="Profile/Country.mmdb"
+
+          # 自动创建文件夹
+          # mkdir -p Profile
+
+          # 容错：文件存在才下载，删除则跳过，不删你本地文件
+          if curl --output /dev/null --silent --head --fail "$URL"; then
+            echo "✅ 文件正常，开始更新"
+            curl -o "$SAVE_PATH" "$URL"
+          else
+            echo "⚠️ 文件已删除，跳过同步，保留本地版本"
+          fi
+
+      - name: 提交更新
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "auto: 更新 Profile/Country.mmdb"
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
