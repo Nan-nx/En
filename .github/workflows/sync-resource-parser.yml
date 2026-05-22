@@ -21,7 +21,7 @@ jobs:
           SAVE_PATH="Script/resource-parser.js"
 
           # 自动创建文件夹（防止不存在）
-          mkdir -p Script
+          # mkdir -p Script
 
           # 容错：文件存在才下载
           if curl --output /dev/null --silent --head --fail "$URL"; then
