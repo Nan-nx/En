@@ -4,7 +4,7 @@
 <a href="https://github.com/Nan-nx/En"><img src='https://img.shields.io/badge/En-v3.0-brown'/></a>  [![Stars](https://img.shields.io/github/stars/Nan-nx/En)](https://github.com/Nan-nx/En/stargazers)
 
 [![Build Status](https://github.com/Nan-nx/En/actions/workflows/build.yml/badge.svg)](https://github.com/Nan-nx/En/actions)
-[![GitHub License](https://img.shields.io/github/license/Nan-nx/En.svg)](https://github.com/Nan-nx/En/blob/master/LICENSE) 
+
 
 #### 主要内容：
 * 可莉资源：[Luestr](https://github.com/luestr/ProxyResource/blob/main/README.md)
@@ -19,7 +19,6 @@
 *  部分VIP资源：[Yichahucha](https://github.com/yichahucha) 
 *  部分VIP资源：[App2smile](https://github.com/app2smile/rules)  
 *  部分VIP资源：[Nameking77](https://github.com/nameking77/Qx/tree/main/rewrite)
-*  各种资源整合：[ADGai-nai](https://github.com/Zhuliyer/ADGai-nai)
 *  专注于微博资源：[Cherish](https://github.com/zmqcherish/proxy-script)
 *  部分去广告资源：[Onewayticket255](https://github.com/onewayticket255)
 *  部分去广告资源：[Blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) 
