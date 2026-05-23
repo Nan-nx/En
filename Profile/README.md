@@ -5,9 +5,6 @@
 [![Stars](https://img.shields.io/github/stars/Nan-nx/En)](https://github.com/Nan-nx/En/stargazers)
 [![GitHub license](https://img.shields.io/github/license/Nan-nx/En.svg)](https://github.com/Nan-nx/En/blob/master/LICENSE) 
 
-
-
-
 #### 主要包括分流、去广告规则；
 #### 另外有拦截100的部分去广告与实用js脚本。
 
