@@ -11,9 +11,8 @@
 * 可莉资源：[Luestr](https://github.com/luestr/ProxyResource/blob/main/README.md)
 * 资源解析器：[KOP-XIAO](https://github.com/KOP-XIAO) 
 * Boxjs、各种签到脚本：[Chavyleung](https://github.com/chavyleung)
-* 各种资源整合、实用脚本等：[Cuttlefish](https://github.com/ddgksf2013)
-* 资源广泛，去广告、破解VIP资源：[NobyDa](https://github.com/NobyDa/Script)
-
+* 各种资源整合、实用脚本：[Cuttlefish](https://github.com/ddgksf2013)
+  
 
 #### 特别感谢：
 *  图标资源库：[Qure](https://github.com/Koolson/Qure)
