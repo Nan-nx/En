@@ -1,0 +1,50 @@
+name: 批量同步多文件（分文件夹）
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # 每6小时同步一次
+  workflow_dispatch:       # 可手动运行
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # 消除Node警告
+
+    steps:
+      - name: 拉取仓库
+        uses: actions/checkout@v5
+
+      - name: 同步多个文件到不同目录
+        run: |
+          # ========== 配置你要同步的文件 ==========
+          # 格式：源文件URL  你仓库的保存路径
+          # ========================================
+          FILE_LIST=(
+            "https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js  Script/resource-parser.js"
+            "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb               Profile/Country.mmdb"
+          )
+
+          # 循环自动同步
+          for line in "${FILE_LIST[@]}"; do
+            SRC=$(echo "$line" | awk '{print $1}')
+            DST=$(echo "$line" | awk '{$1=""; print substr($0,2)}')
+            
+            # 自动创建目标文件夹
+            mkdir -p "$(dirname "$DST")"
+            
+            # 检查文件是否存在，不存在则跳过，不删你本地文件
+            if curl --output /dev/null --silent --head --fail "$SRC"; then
+              echo "✅ 同步文件：$DST"
+              curl -s -o "$DST" "$SRC"
+            else
+              echo "⚠️ 源文件已删除，跳过：$SRC"
+            fi
+          done
+
+      - name: 提交更新到仓库
+        uses: EndBug/add-and-commit@v10
+        with:
+          message: "auto: 批量同步多个文件"
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
