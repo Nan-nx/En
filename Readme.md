@@ -1,0 +1,36 @@
+
+## <a href="https://t.me/Nan_nx"><img src="https://raw.githubusercontent.com/Nan-nx/Nan-nx/main/hello.gif" width="65px"/></a>
+
+<a href="https://github.com/Nan-nx/En"><img src='https://img.shields.io/badge/En-v3.0-brown'/></a>  [![Stars](https://img.shields.io/github/stars/Nan-nx/En)](https://github.com/Nan-nx/En/stargazers)
+
+[![License](https://img.shields.io/badge/License-GPL3.0-orange)](https://github.com/Nan-nx/En/blob/master/LICENSE) 
+[![Build Status](https://github.com/Nan-nx/En/actions/workflows/build.yml/badge.svg)](https://github.com/Nan-nx/En/actions)
+
+
+#### 主要内容：
+* 可莉资源：[Luestr](https://github.com/luestr/ProxyResource/blob/main/README.md)
+* 资源解析器：[KOP-XIAO](https://github.com/KOP-XIAO) 
+* Boxjs、各种签到脚本：[Chavyleung](https://github.com/chavyleung)
+* 各种资源整合、实用脚本等：[Cuttlefish](https://github.com/ddgksf2013)
+* 资源广泛，去广告、破解VIP资源：[NobyDa](https://github.com/NobyDa/Script)
+
+
+#### 特别感谢：
+*  图标资源库：[Qure](https://github.com/Koolson/Qure)
+*  部分VIP资源：[Yichahucha](https://github.com/yichahucha) 
+*  部分VIP资源：[App2smile](https://github.com/app2smile/rules)  
+*  部分VIP资源：[Nameking77](https://github.com/nameking77/Qx/tree/main/rewrite)
+*  专注于微博资源：[Cherish](https://github.com/zmqcherish/proxy-script)
+*  部分去广告资源：[Onewayticket255](https://github.com/onewayticket255)
+*  部分去广告资源：[Blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) 
+*  各种分流策略、规则等：[DivineEngine](https://github.com/DivineEngine)
+*  专注于搜索跳转，引擎转化：[zZPiglet](https://github.com/zZPiglet/Task/tree/master)
+*  其他 [@Peng-YM](https://github.com/Peng-YM) [@MuTu](https://github.com/githubdulong) [@fengchang](https://github.com/fengchang) [@Loon0x00](https://github.com/Loon0x00) [@Tartarus2014](https://github.com/Tartarus2014)[@Hackl0us](https://github.com/Hackl0us) [@Koolson](https://github.com/Koolson) [@LucaLin](https://github.com/LucaLin233)
+
+
+
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/Nan-nx/En.svg)](https://github.com/Nan-nx/En/tags)
+[![GitHub release](https://img.shields.io/github/release/Nan-nx/En.svg)](https://github.com/Nan-nx/En/releases)
+[![Issues](https://img.shields.io/github/issues/Nan-nx/En)](https://github.com/Nan-nx/En/issues)
+[![Commit](https://img.shields.io/github/commit-activity/m/Nan-nx/En?label=commits)](https://github.com/Nan-nx/En/commits/master)
+
