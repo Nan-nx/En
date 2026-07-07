@@ -21,6 +21,8 @@ jobs:
           # 格式：源文件URL  你仓库的保存路径
           # ========================================
           FILE_LIST=(
+            "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb   Profile/Country.mmdb"
+            "https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js   Script/resource-parser.js"
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/WeChat/WeChat.list  Profile/Wechat.list"
             "https://raw.githubusercontent.com/ddgksf2013/Filter/master/Unbreak.list  Profile/Unbreak.list"
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Spotify/Spotify.list  Profile/Spotify.list"
