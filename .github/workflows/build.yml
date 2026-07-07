@@ -1,0 +1,15 @@
+name: Build Project
+on: push # 推送代码时自动执行
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: 安装Node环境
+        uses: actions/setup-node@v5
+        with:
+          node-version: 20
+      - name: 安装依赖
+        run: npm install
+      - name: 打包构建
+        run: npm run build
