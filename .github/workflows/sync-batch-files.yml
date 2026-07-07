@@ -1,8 +1,8 @@
-name: 批量同步多文件（分文件夹）
+name: update from others
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # 每6小时同步一次
+    - cron: '0 */4 * * *'  # 每4小时同步一次
   workflow_dispatch:       # 可手动运行
 
 jobs:
@@ -21,17 +21,40 @@ jobs:
           # 格式：源文件URL  你仓库的保存路径
           # ========================================
           FILE_LIST=(
-            "https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js  Script/resource-parser.js"
-            "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb               Profile/Country.mmdb"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/WeChat/WeChat.list  Profile/Wechat.list"
+            "https://raw.githubusercontent.com/ddgksf2013/Filter/master/Unbreak.list  Profile/Unbreak.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Spotify/Spotify.list  Profile/Spotify.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaIPs/ChinaIPs.list   Profile/ChinaIPs.list"
+            "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Proxy.list    Profile/Proxy.list"
+            "https://ddgksf2013.top/filter/Ai.yaml    Profile/Ai.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/QuantumultX/Advertising/Advertising.list    Profile/Advertising.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Weibo/Weibo.list    Profile/Weibo.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Google/Google.list    Profile/Google.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Twitter/Twitter.list    Profile/Twitter.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/YouTube/YouTube.list    Profile/YouTube.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BiliBili/BiliBili.list    Profile/BiliBili.list"
+            "https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.conf    Script/Spotify.conf"
+            "https://ddgksf2013.top/Profile/QuantumultX.conf    Script/QuantumultX.conf"
+            "https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin    Script/Spotify.plugin"
+            "https:/raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u    Profile/iptv.m3u"
+            "https:/raw.githubusercontent.com/Kimentanm/aptv/master/m3u/radio.m3u    Profile/radio.m3u"
+            "https://iptv.yang-1989.eu.org/m3u/Gather.m3u    Profile/Gather.m3u"
+            "https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u    Profile/Jsnzkpg1.m3u"
+            "https://raw.githubusercontent.com/mzky/checklist/refs/heads/master/itvlist.m3u    Profile/itvlist.m3u"
+            "https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u    Profile/ipv4.m3u"
+            "https://live.freetv.top/douyuyqk.m3u    Profile/douyuyqk.m3u"
+            "https://cdn.jsdelivr.net/gh/Kimentanm/aptv@refs/heads/master/m3u/yqk.m3u    Profile/yqk.m3u"
+        
+            
+   
           )
-
           # 循环自动同步
           for line in "${FILE_LIST[@]}"; do
             SRC=$(echo "$line" | awk '{print $1}')
             DST=$(echo "$line" | awk '{$1=""; print substr($0,2)}')
             
             # 自动创建目标文件夹
-            mkdir -p "$(dirname "$DST")"
+            # mkdir -p "$(dirname "$DST")"
             
             # 检查文件是否存在，不存在则跳过，不删你本地文件
             if curl --output /dev/null --silent --head --fail "$SRC"; then
@@ -42,9 +65,9 @@ jobs:
             fi
           done
 
-      - name: 提交更新到仓库
+      - name: update file from other sources
         uses: EndBug/add-and-commit@v10
         with:
-          message: "auto: 批量同步多个文件"
+          message: "auto: update file from other sources"
           committer_name: GitHub Actions
           committer_email: actions@github.com
