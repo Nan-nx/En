@@ -2,7 +2,7 @@ name: update from others
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # 每4小时同步一次
+    - cron: '0 */7 * * *'  # 每7小时同步一次
   workflow_dispatch:       # 可手动运行
 
 jobs:
