@@ -45,10 +45,12 @@ jobs:
             "https://raw.githubusercontent.com/mzky/checklist/refs/heads/master/itvlist.m3u    Profile/itvlist.m3u"
             "https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u    Profile/ipv4.m3u"
             "https://live.freetv.top/douyuyqk.m3u    Profile/douyuyqk.m3u"
-            "https://cdn.jsdelivr.net/gh/Kimentanm/aptv@refs/heads/master/m3u/yqk.m3u    Profile/yqk.m3u"
+            "https://cdn.jsdelivr.net/gh/Kimentanm/aptv@refs/heads/master/m3u/yqk.m3u    Profile/yqk.m3u" 
+            "https://a.dove.isdumb.one/list.txt    Profile/Adobe_list.txt"
+
         
-            
-   
+          
+  
           )
           # 循环自动同步
           for line in "${FILE_LIST[@]}"; do
