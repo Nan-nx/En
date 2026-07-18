@@ -1,0 +1,21 @@
+Sub Zotero引用蓝色()
+    Dim fld As Field
+    For Each fld In ActiveDocument.Fields
+        If InStr(fld.Code.Text, "ADDIN ZOTERO_ITEM") > 0 Then
+            fld.Result.Font.Superscript = True
+            fld.Result.Font.Color = RGB(0, 51, 204)
+        End If
+    Next fld
+    MsgBox "所有上角标引用已改为蓝色"
+End Sub
+
+Sub Zotero引用红色()
+    Dim fld As Field
+    For Each fld In ActiveDocument.Fields
+        If InStr(fld.Code.Text, "ADDIN ZOTERO_ITEM") > 0 Then
+            fld.Result.Font.Superscript = True
+            fld.Result.Font.Color = RGB(255, 0, 0)
+        End If
+    Next fld
+    MsgBox "所有上角标引用已改为红色"
+End Sub

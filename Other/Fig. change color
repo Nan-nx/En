@@ -1,0 +1,176 @@
+=============================================
+' 宏1：图编号设为蓝色
+'=============================================
+Sub SetFigBlue()
+    Dim clr As Long: clr = RGB(0, 0, 255)
+    Dim prefixes As Variant
+    Dim i As Long
+    
+    prefixes = Array("Figure", "Fig.", "图")
+    
+    For i = LBound(prefixes) To UBound(prefixes)
+        Dim pfx As String
+        pfx = prefixes(i)
+        
+        With ActiveDocument.Content.Find
+            .ClearFormatting
+            .Replacement.ClearFormatting
+            .MatchWildcards = True
+            .Forward = True
+            .Wrap = wdFindContinue
+            .Replacement.Font.Color = clr
+            
+            ' 1. 复数+数字+字母后缀：Fig.S9a / FigureS39b / 图S1c
+            .Text = pfx & "[Ss][0-9]{1,}[a-z]"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 2. 复数+数字（无后缀）：Fig.S9 / FigureS39 / 图S1
+            .Text = pfx & "[Ss][0-9]{1,}"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 3. 纯数字+字母后缀：Fig.39a / Figure39b / 图39c
+            .Text = pfx & "[0-9]{1,}[a-z]"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 4. 纯数字（无后缀）：Fig.39 / Figure39 / 图39
+            .Text = pfx & "[0-9]{1,}"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 5. 带空格+复数+数字+字母后缀：Fig. S9a / Figure S39b / 图 S1c
+            .Text = pfx & "[ ]{1,}[Ss][0-9]{1,}[a-z]"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 6. 带空格+复数+数字：Fig. S9 / Figure S39 / 图 S1
+            .Text = pfx & "[ ]{1,}[Ss][0-9]{1,}"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 7. 带空格+纯数字+字母后缀：Fig. 39a / Figure 39b / 图 39c
+            .Text = pfx & "[ ]{1,}[0-9]{1,}[a-z]"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 8. 带空格+纯数字：Fig. 39 / Figure 39 / 图 39
+            .Text = pfx & "[ ]{1,}[0-9]{1,}"
+            .Execute Replace:=wdReplaceAll
+        End With
+    Next i
+    
+    MsgBox "上色完成：所有 Fig./Figure/中文图 已设为蓝色", vbInformation
+End Sub
+
+'=============================================
+' 宏2：图编号设为红色
+'=============================================
+Sub SetFigRed()
+    Dim clr As Long: clr = RGB(255, 0, 0)
+    Dim prefixes As Variant
+    Dim i As Long
+    
+    prefixes = Array("Figure", "Fig.", "图")
+    
+    For i = LBound(prefixes) To UBound(prefixes)
+        Dim pfx As String
+        pfx = prefixes(i)
+        
+        With ActiveDocument.Content.Find
+            .ClearFormatting
+            .Replacement.ClearFormatting
+            .MatchWildcards = True
+            .Forward = True
+            .Wrap = wdFindContinue
+            .Replacement.Font.Color = clr
+            
+            ' 1. 复数+数字+字母后缀：Fig.S9a / FigureS39b / 图S1c
+            .Text = pfx & "[Ss][0-9]{1,}[a-z]"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 2. 复数+数字（无后缀）：Fig.S9 / FigureS39 / 图S1
+            .Text = pfx & "[Ss][0-9]{1,}"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 3. 纯数字+字母后缀：Fig.39a / Figure39b / 图39c
+            .Text = pfx & "[0-9]{1,}[a-z]"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 4. 纯数字（无后缀）：Fig.39 / Figure39 / 图39
+            .Text = pfx & "[0-9]{1,}"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 5. 带空格+复数+数字+字母后缀：Fig. S9a / Figure S39b / 图 S1c
+            .Text = pfx & "[ ]{1,}[Ss][0-9]{1,}[a-z]"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 6. 带空格+复数+数字：Fig. S9 / Figure S39 / 图 S1
+            .Text = pfx & "[ ]{1,}[Ss][0-9]{1,}"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 7. 带空格+纯数字+字母后缀：Fig. 39a / Figure 39b / 图 39c
+            .Text = pfx & "[ ]{1,}[0-9]{1,}[a-z]"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 8. 带空格+纯数字：Fig. 39 / Figure 39 / 图 39
+            .Text = pfx & "[ ]{1,}[0-9]{1,}"
+            .Execute Replace:=wdReplaceAll
+        End With
+    Next i
+    
+    MsgBox "上色完成：所有 Fig./Figure/中文图 已设为红色", vbInformation
+End Sub
+
+'=============================================
+' 宏3：图编号设为紫色
+'=============================================
+Sub SetFigPurple()
+    Dim clr As Long: clr = RGB(128, 0, 128)
+    Dim prefixes As Variant
+    Dim i As Long
+    
+    prefixes = Array("Figure", "Fig.", "图")
+    
+    For i = LBound(prefixes) To UBound(prefixes)
+        Dim pfx As String
+        pfx = prefixes(i)
+        
+        With ActiveDocument.Content.Find
+            .ClearFormatting
+            .Replacement.ClearFormatting
+            .MatchWildcards = True
+            .Forward = True
+            .Wrap = wdFindContinue
+            .Replacement.Font.Color = clr
+            
+            ' 1. 复数+数字+字母后缀：Fig.S9a / FigureS39b / 图S1c
+            .Text = pfx & "[Ss][0-9]{1,}[a-z]"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 2. 复数+数字（无后缀）：Fig.S9 / FigureS39 / 图S1
+            .Text = pfx & "[Ss][0-9]{1,}"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 3. 纯数字+字母后缀：Fig.39a / Figure39b / 图39c
+            .Text = pfx & "[0-9]{1,}[a-z]"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 4. 纯数字（无后缀）：Fig.39 / Figure39 / 图39
+            .Text = pfx & "[0-9]{1,}"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 5. 带空格+复数+数字+字母后缀：Fig. S9a / Figure S39b / 图 S1c
+            .Text = pfx & "[ ]{1,}[Ss][0-9]{1,}[a-z]"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 6. 带空格+复数+数字：Fig. S9 / Figure S39 / 图 S1
+            .Text = pfx & "[ ]{1,}[Ss][0-9]{1,}"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 7. 带空格+纯数字+字母后缀：Fig. 39a / Figure 39b / 图 39c
+            .Text = pfx & "[ ]{1,}[0-9]{1,}[a-z]"
+            .Execute Replace:=wdReplaceAll
+            
+            ' 8. 带空格+纯数字：Fig. 39 / Figure 39 / 图 39
+            .Text = pfx & "[ ]{1,}[0-9]{1,}"
+            .Execute Replace:=wdReplaceAll
+        End With
+    Next i
+    
+    MsgBox "上色完成：所有 Fig./Figure/中文图 已设为紫色", vbInformation
+End Sub
