@@ -1,6 +1,6 @@
 # NAME: Ai Rules
 # AUTHOR: https://t.me/ddgksf2021
-# UPDATED: 2026-1-28
+# UPDATED: 2026-08-18
 
 payload:
 # > Ai general rules
@@ -27,10 +27,15 @@ payload:
   - DOMAIN,cdn.usefathom.com
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
   - DOMAIN-SUFFIX,claudeusercontent.com
 
 # > Cursor
   - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-SUFFIX,cursor.com
+  - DOMAIN-SUFFIX,cursor-cdn.com
+  - DOMAIN-SUFFIX,cursorapi.com
+  - DOMAIN-SUFFIX,cursorvm.com
 
 # > Dify AI
   - DOMAIN-SUFFIX,dify.ai
@@ -112,3 +117,15 @@ payload:
 # > xAI/Grok
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,grok.com
+  
+# > Mistral AI
+  - DOMAIN-SUFFIX,mistral.ai
+
+# > Hugging Face
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,hf.co
+  - DOMAIN-SUFFIX,hf.space
+
+# > Manus
+  - DOMAIN-SUFFIX,manus.im
+  - DOMAIN-SUFFIX,manuscdn.com
