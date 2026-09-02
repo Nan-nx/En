@@ -11,7 +11,7 @@
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/setu.js
 // ==/UserScript==
 
-let userApikey   = '' //请在 Telegram 内使用 @loliconApiBot 申请
+let userApikey   = (typeof $prefs !== 'undefined' && $prefs.valueForKey('setu_apikey')) || '' //请在 Telegram 内使用 @loliconApiBot 申请后，通过 QuanX 的 apikey.setu_apikey 配置写入，不要将密钥硬编码在脚本中
 let userR18      = 2 //18禁为1 非为0 2是混合
 let userKeyword  = ''//搜索关键字
 let userNum      = 1 //一次返回的结果数量，范围为1到10，数字的数量亦为弹框的次数
