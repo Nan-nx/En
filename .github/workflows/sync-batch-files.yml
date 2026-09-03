@@ -47,6 +47,7 @@ jobs:
             "https://live.freetv.top/douyuyqk.m3u    Profile/douyuyqk.m3u"
             "https://cdn.jsdelivr.net/gh/Kimentanm/aptv@refs/heads/master/m3u/yqk.m3u    Profile/yqk.m3u" 
             "https://a.dove.isdumb.one/list.txt    Profile/Adobe_list.txt"
+            "https://raw.githubusercontent.com/zqzess/holiday-and-chinese-almanac-calendar/refs/heads/main/holidays_calendar_year.ics     Profile/Calender.ics"
 
         
           
