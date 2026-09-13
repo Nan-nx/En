@@ -49,6 +49,7 @@ jobs:
             "https://a.dove.isdumb.one/list.txt    Profile/Adobe_list.txt"
             "https://raw.githubusercontent.com/zqzess/holiday-and-chinese-almanac-calendar/refs/heads/main/holidays_calendar_year.ics     Profile/Calender.ics"
             "https://raw.githubusercontent.com/the1812/Bilibili-Evolved/refs/heads/master/doc/features/features.md    Script/Bilibili_Evolved_features.md"
+            "https://live.445569.xyz/live.m3u   Profile/Kulao.m3u"
 
         
           
