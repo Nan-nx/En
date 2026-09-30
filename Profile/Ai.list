@@ -1,6 +1,6 @@
 # NAME: Ai Rules
 # AUTHOR: https://t.me/ddgksf2021
-# UPDATED: 2026-08-18
+# UPDATED: 2026-09-30
 
 payload:
 # > Ai general rules
@@ -63,7 +63,18 @@ payload:
 # > Meta
   - DOMAIN-SUFFIX,meta.ai
   - DOMAIN-SUFFIX,meta.com
+  - DOMAIN-SUFFIX,atmeta.com
+  - DOMAIN-SUFFIX,llamameta.net
+  - DOMAIN-SUFFIX,llama.com
 
+# > Muse AI
+  - DOMAIN-SUFFIX,muse.ai
+  - DOMAIN,production.museai.com
+  - DOMAIN,connect.facebook.net
+  - DOMAIN,meta-ohttp-config-prod.fastly-edge.com
+  - DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,fbcdn.net
 
 # > Notebooklm
   - DOMAIN-SUFFIX,notebooklm.google.com
